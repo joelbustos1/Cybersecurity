@@ -1,0 +1,72 @@
+*Ataque de contraseña
+
+Un ataque de contraseña tiene el propósito de acceder a dispositivos, sistemas, redes o datos protegidos por contraseña. Algunos tipos de ataques de contraseña que conocerás más adelante en el programa de certificación son:  
+
+Fuerza bruta
+
+Tabla arcoíris o Rainbow
+
+Los ataques de contraseña pertenecen al dominio de seguridad de las comunicaciones y las redes. 
+
+*Ataque de ingeniería social
+
+La ingeniería social es una técnica de manipulación que aprovecha errores humanos para obtener información privada, acceso a sistemas o bienes de valor. Algunos de los tipos de ataque de ingeniería social que seguirás conociendo en el transcurso del programa son: 
+
+Phishing (Suplantación de identidad)
+
+Smishing
+
+Vishing
+
+Phishing localizado (Spear phishing)
+
+Ataque de caza de ballena (Whaling)
+
+Ataque en redes sociales (Phishing en redes sociales)
+
+Compromiso del correo electrónico empresarial (BEC)
+
+Ataque de “agujero de agua”
+
+Cebo USB (Baiting)
+
+Ingeniería social física 
+
+Los ataques de ingeniería social están relacionados con el dominio de seguridad y gestión de riesgos.
+
+*Ataque físico
+
+Un ataque físico es un incidente de seguridad que afecta no solo a los entornos digitales, sino también a los físicos en los que se produce el incidente. Algunos tipos de ataques físicos son:
+
+Cable USB malicioso
+
+Unidad flash maliciosa
+
+Clonación y skimming de tarjetas
+
+Los ataques físicos pertenecen al dominio de seguridad de los activos.
+
+*Inteligencia artificial antagónica
+
+La inteligencia artificial antagónica es una técnica que manipula
+ la tecnología de inteligencia artificial y el aprendizaje automático
+ para perpetrar ataques de manera más eficiente. Pertenece a los dominios de seguridad de comunicaciones y redes y al de gestión de identidad y acceso.
+
+*Ataque a la cadena de suministro
+
+Un ataque a la cadena de suministro se dirige a los sistemas, las aplicaciones, el hardware y el software con el fin de identificar una vulnerabilidad en la que instalar software malicioso. Como cada artículo que se vende pasa por un proceso que involucra a terceros, esto significa que la vulneración de seguridad puede producirse en cualquier punto de la cadena de suministro. Estos ataques resultan costosos porque pueden afectar a varias organizaciones y a las personas que trabajan para ellas. Los ataques a la cadena de suministro pertenecen a los dominios de seguridad y gestión de riesgos, arquitectura e ingeniería de seguridad y operaciones de seguridad.
+
+*Ataque criptográfico
+
+Un ataque criptográfico afecta a las formas seguras de comunicación protegidas por un sistema criptográfico. Algunos tipos de ataques criptográficos son: 
+
+Cumpleaños
+
+Colisión
+
+Degradación
+
+Los ataques criptográficos pertenecen al dominio de seguridad de las comunicaciones y las redes. 
+
+Conclusiones clave
+Los ocho dominios de seguridad del CISSP pueden ayudar a una organización y a su equipo de seguridad a reforzar sus defensas y prepararse para una filtración de datos. Las filtraciones de datos pueden ser simples o complejas y pertenecer a uno o más dominios. Considera que los métodos de ataque que hemos analizado son solo unos pocos de los muchos que existen. Durante el programa de certificación, aprenderemos sobre estos y otros tipos de ataques.

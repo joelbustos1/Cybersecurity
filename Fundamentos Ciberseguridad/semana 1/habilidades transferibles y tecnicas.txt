@@ -1,0 +1,23 @@
+Habilidades transferibles
+Probablemente hayas desarrollado habilidades transferibles a lo largo de tu vida; algunas de ellas te ayudarán a prosperar como profesional en ciberseguridad. Por ejemplo:
+
+Comunicación: como analista de ciberseguridad, deberás comunicarte y colaborar con otras personas. Comprender las preguntas o inquietudes de los/las demás y comunicar la información con claridad a personas con conocimientos técnicos y no técnicos te ayudará a mitigar los problemas de seguridad rápidamente. 
+
+Resolución de problemas: una de tus principales tareas como analista de ciberseguridad será identificar y resolver problemas de forma proactiva. Puedes hacerlo reconociendo patrones de ataque y determinando la solución más eficaz para minimizar el riesgo. No tengas miedo de probar cosas nuevas y ten en cuenta que es difícil encontrar una solución perfecta a un problema, y es probable que te tengas que conformar con un punto intermedio.
+
+Gestión del tiempo: tener sentido de la urgencia y priorizar adecuadamente las tareas es esencial en el campo de la ciberseguridad. Por lo tanto, una gestión eficaz del tiempo te ayudará a minimizar los posibles daños y riesgos para los activos y datos críticos. Además, será importante que sepas priorizar las tareas y enfocarte en el tema más urgente.
+
+Mentalidad de crecimiento: la ciberseguridad es un sector en plena evolución, por lo que una habilidad transferible importante es la voluntad de aprender. La tecnología avanza rápido, ¡y eso es positivo! Esto no significa que tengas que aprender todo, pero sí que tendrás que seguir haciéndolo a lo largo de tu carrera. Afortunadamente, podrás aplicar gran parte de lo que aprendas en este programa a tu desarrollo profesional continuado.
+
+Diversidad de perspectivas: la única manera de llegar lejos es trabajando conjuntamente con otras personas. El respeto mutuo y los diversos puntos de vista te permitirán encontrar mejores soluciones a los problemas de seguridad. 
+---------
+Habilidades técnicas
+Hay muchos conocimientos técnicos que te ayudarán a tener éxito en el campo de la ciberseguridad. Aprenderás y practicarás estas habilidades a medida que avances en el programa de certificación. Estos son algunos conceptos y  herramientas que tendrás que entender y utilizar: 
+
+Lenguajes de programación: comprender cómo usar los lenguajes de programación te permitirá automatizar tareas que de otro modo requerirían mucho tiempo, como por ejemplo, la búsqueda de datos para identificar posibles amenazas o la organización y el análisis de información para identificar patrones relacionados con problemas de seguridad. 
+
+Sistemas de detección de intrusiones (IDS): las y los analistas en ciberseguridad utilizan los IDS para monitorear la actividad del sistema y las alertas de posibles intrusiones. Es importante familiarizarse con ellos porque son una herramienta clave para proteger activos y datos. Por ejemplo, puedes usar un IDS para monitorear las redes en busca de signos de actividad maliciosa, como el acceso no autorizado a una red.
+
+Conocimiento del panorama de amenazas: es vital estar al tanto de las tendencias actuales relacionadas con los agentes de amenazas, el malware o las metodologías. Este conocimiento permite a los equipos de ciberseguridad construir defensas más sólidas contra las tácticas y técnicas de los agentes de amenazas. Si te mantienes al día sobre las tendencias y patrones de ataque, serás capaz de reconocer cuando surgen nuevos tipos de amenazas, como, por ejemplo, una nueva variante de ransomware. 
+
+Respuesta a incidentes: las y los analistas en ciberseguridad deben poder seguir las políticas y procedimientos establecidos para responder adecuadamente a los incidentes. Por ejemplo, poder iniciar el proceso de respuesta a incidentes ante un posible ataque de malware lo que podría implicar tener que llevar a cabo una investigación para identificar el problema de raíz y establecer formas de remediarlo.

@@ -1,0 +1,32 @@
+Tipos de agentes de amenaza
+*Amenazas avanzadas persistentes
+
+Una amenaza persistente avanzada (APT) es un conjunto de procesos informáticos sigilosos orquestados por un tercero con la intención y la capacidad de atacar de forma avanzada y continuada en el tiempo, un objetivo determinado. Las APT suelen investigar a sus objetivos (p. ej., grandes corporaciones u organismos de gobierno) con antelación y pueden permanecer indetectables por un período prolongado. Sus intenciones y motivaciones pueden incluir:
+
+Dañar infraestructura crítica, como la red eléctrica y recursos naturales
+
+Acceder a propiedad intelectual, como secretos comerciales o patentes
+
+*Amenazas internas
+
+Las amenazas internas abusan de su acceso autorizado para obtener datos que pueden perjudicar a una organización. Sus intenciones y motivaciones pueden incluir: 
+
+Sabotaje
+
+Corrupción
+
+Espionaje
+
+Acceso no autorizado a datos o filtraciones de datos 
+
+*Hacktivistas
+
+Las/los hacktivistas son agentes de amenaza que actúan por motivaciones políticas. Abusan de la tecnología digital para alcanzar sus metas, las cuales pueden incluir: 
+
+Manifestaciones
+
+Propaganda
+
+Campañas de cambio social
+
+Fama

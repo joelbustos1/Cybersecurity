@@ -1,0 +1,8 @@
+1-gestión de riesgos y seguridad: Este se centra en definir metas y objetivos de seguridad, mitigación de riesgos, cumplimiento, continuidad del negocio y la ley.
+2-seguridad de los activos: Este se centra en la seguridad de activos digitales y físicos. También se relaciona con el almacenamiento, mantenimiento, retención y destrucción de datos.
+3-arquitectura e ingeniería de seguridad: Este se centra en optimizar la seguridad de los datos al asegurarse de que las herramientas, sistemas y procesos efectivos estén en su lugar.
+4-seguridad de la comunicación y la red: Este se centra en la gestión y seguridad de las redes físicas y las comunicaciones inalámbricas.
+5-gestión de accesos e identidad: La gestión de acceso e identidad se enfoca en mantener seguros los datos al garantizar que se sigan políticas establecidas para controlar y administrar activos físicos, como espacios de oficina, y activos lógicos, como redes y aplicaciones. Validar las identidades de empleados/as y documentar roles de acceso es fundamental para resguardar la seguridad digital y física de la organización.
+6-evaluación de seguridad y pruebas: Este dominio se centra en realizar pruebas de control de seguridad, recolectar y analizar datos y realizar auditorías de seguridad para monitorear riesgos, amenazas y vulnerabilidades.
+7-operaciones de seguridad: Este se dedica a realización de investigaciones y la implementación de medidas preventivas.
+8-seguridad de desarrollo de software: Este se centra en el uso de prácticas seguras de codificación, que son una serie recomendaciones que se utilizan para crear aplicaciones y servicios seguros.

@@ -1,0 +1,24 @@
+Un/a hacker es cualquier persona o grupo que utiliza computadoras para acceder a datos sin autorización. Puede tratarse de una persona sin experiencia o profesional, experta en tecnología, que usa sus habilidades para diversos fines. Estas son las tres categorías principales de hackers:
+
+*Los/las hackers autorizados/as también se denominan hackers éticos. Respetan un código de ética y cumplen la ley para realizar evaluaciones de riesgos de una organización. Su motivación es proteger a las personas y a las organizaciones de los agentes de amenaza maliciosos.
+
+*Los/las hackers semiautorizados/as se consideran investigadores/as. Buscan vulnerabilidades, pero no aprovechan las que identifican.
+
+*Los/las hackers no autorizados/as también se denominan hackers no éticos. Son agentes de amenaza maliciosos/as que no cumplen ni respetan la ley. Su objetivo es recopilar y vender información confidencial para obtener un beneficio financiero. 
+
+Nota: existen varios tipos de hackers que pertenecen a una o más de estas tres categorías.
+
+Los agentes de amenazas sin experiencia y poco hábiles tienen diversos objetivos, como por ejemplo: 
+
+Aprender y desarrollar sus habilidades de hackeo
+
+Llevar a cabo una venganza
+
+Aprovechar las vulnerabilidades de seguridad utilizando software malicioso, secuencias de comandos de programación y otras tácticas existentes 
+
+Otros tipos de hackers no tienen otra motivación que no sea realizar el trabajo para el que fueron contratados.
+
+También existen hackers que se consideran a sí mismos/as como vigilantes, y su propósito principal es proteger al mundo de las/los hackers no éticos.
+
+Conclusiones clave
+Los/las agentes de amenaza y los/las hackers son hábiles en el campo técnico. Comprender sus motivaciones e intenciones te ayudará a prepararte mejor para proteger a tu organización y a las personas a las que esta sirve contra los ataques maliciosos ejecutados por algunos de estos grupos o personas. 

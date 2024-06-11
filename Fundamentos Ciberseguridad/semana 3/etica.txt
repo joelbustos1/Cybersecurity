@@ -1,0 +1,46 @@
+Preocupaciones éticas y leyes relacionadas con los contraataques 
+.Postura de los Estados Unidos sobre los contraataques 
+
+En los Estados Unidos, está prohibido realizar contraataques contra agentes de amenaza debido a leyes como la Ley de Abuso y Fraude Informático de 1986 y la Ley de Intercambio de Información de Seguridad Cibernética de 2015, entre otras. En lugar de contraatacar, solo se permite la defensa. La acción de contraatacar en los Estados Unidos se considera un acto de justicia por mano propia, reservado para las fuerzas del orden. Además, los contraataques pueden llevar a una escalada de la situación y causar aún más daño. Por último, si el agente amenazante es un/a hacktivista patrocinado/a por el estado, los contraataques pueden tener serias implicaciones internacionales. Un/a hacktivista es una persona que utiliza el hackeo (hacking) o piratería informática para lograr objetivos políticos, como promover cambios sociales o desobediencia civil. 
+
+Por estas razones, solo se permite que los/las empleados/as autorizados/as por el gobierno federal y el personal militar realicen contraataques en los Estados Unidos.
+
+.Postura internacional sobre los contraataques
+
+La Corte Internacional de Justicia (CIJ), que actualiza regularmente sus políticas y regulaciones, establece que una persona o grupo puede contraatacar si: 
+
+*El contraataque solo afectará a la parte que atacó primero.
+
+*El contraataque es una comunicación directa pidiendo al atacante inicial que se detenga.
+
+*El contraataque no escala la situación.
+
+*Los efectos del contraataque se pueden revertir.
+
+Normalmente, las organizaciones no realizan contraataques porque los escenarios y parámetros mencionados anteriormente son difíciles de medir. Existe mucha incertidumbre en cuanto  a lo que es y no es legal, y, a veces, es muy difícil controlar los resultados negativos. Las acciones de contraataque generalmente conducen a un resultado peor, especialmente si no se es un/a profesional experimentado/a en el campo. 
+
+Para obtener más información sobre escenarios específicos y preocupaciones éticas desde una perspectiva internacional, te recomendamos revisar las actualizaciones proporcionadas en el Tallinn Manual 2.0 On The International Law Applicable to Cyber Operations o accede al
+ Tallin Manual en línea
+.
+
+.Metodologías y principios éticos
+Dado que los contraataques generalmente son desaprobados o ilegales, en el ámbito de la ciberseguridad se han creado marcos y controles, como la tríada de confidencialidad, integridad y disponibilidad (CID) y otros discutidos anteriormente en el programa, para abordar cuestiones relacionadas con la confidencialidad, protección de la privacidad y cumplimiento de leyes. Con el fin de comprender mejor la relación entre estos aspectos y las obligaciones éticas de las/los profesionales de la ciberseguridad, es importante revisar los siguientes conceptos fundamentales sobre el uso de la ética para proteger a las organizaciones y a las personas.
+
+*La confidencialidad implica que solo los/as usuarios/as autorizados/as pueden acceder a activos o datos específicos. Desde el punto de vista ético, la confidencialidad requiere un alto nivel de respeto por la privacidad con el objetivo de proteger los activos y datos privados.
+
+*La protección de la privacidad implica preservar la información personal de un uso no autorizado. La información de identificación personal (PII) y la información de identificación personal sensible (SPII) son tipos de datos personales que pueden causar daño a las personas en caso de robo. Los datos de PII incluyen cualquier información que se puede utilizar para deducir la identidad de una persona, como su nombre y número de teléfono. Por otro lado, los datos de SPII son una categoría más restrictiva de PII y abarcan números de seguridad social y números de tarjetas de crédito. Para proteger adecuadamente los datos de PII y SPII, las/los profesionales de ciberseguridad tienen la responsabilidad ética de proteger la información privada, identificar vulnerabilidades de seguridad, gestionar los riesgos empresariales y alinear las medidas de seguridad con los objetivos del negocio. 
+
+*Las leyes son normas reconocidas por una comunidad y aplicadas por una entidad gubernamental. Como profesional de la seguridad, tendrás la responsabilidad ética de proteger a tu organización, su infraestructura interna y a las personas allí involucradas. Para lograrlo debes:
+
+Mantener la imparcialidad y llevar a cabo tu trabajo de manera honesta, responsable y con el máximo respeto por la ley. 
+
+Ser transparente y basar tus acciones en evidencias.
+
+Garantizar un profundo compromiso con el trabajo que realizas, para que puedas abordar de manera adecuada y ética los problemas que surjan. 
+
+Mantenerte al día y buscar constantemente mejorar tus habilidades, de manera que puedas contribuir al avance y al mejoramiento del panorama de la ciberseguridad.
+
+Un ejemplo relevante es la Ley de Transferecia y Responsabilidad de los Seguros Médicos (HIPAA), una ley federal de los Estados Unidos establecida para proteger la información de salud de las/los pacientes, también conocida como Protected Health Information (PHI) o información de salud protegida. Esta ley prohíbe compartir la información de las/los pacientes sin su consentimiento. Por lo tanto, como profesional de la ciberseguridad, es tu responsabilidad garantizar que la organización en la que trabajas cumpla con su obligación legal y ética de informar a las personas en caso de que se produzca una violación de seguridad que exponga sus datos médicos.
+
+Conclusiones clave
+Como futuro/a profesional de la seguridad, la ética desempeñará un papel importante en tu trabajo diario. Comprender la ética y las leyes te ayudará a tomar las decisiones correctas si te enfrentas a una amenaza de seguridad o a un incidente que resulte en una violación de datos.

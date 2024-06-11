@@ -1,0 +1,89 @@
+¿Qué es una cartera profesional y por qué es necesaria?
+Las/las profesionales de ciberseguridad utilizan carteras para demostrar su educación, habilidades y conocimientos en seguridad cuando solicitan puestos de trabajo. Así, pueden mostrar a los/las potenciales empleadores/as que les apasiona su trabajo y que pueden desempeñar el puesto que solicitan. Las carteras profesionales son más completas que un currículum, que por lo general es un resumen de una a dos páginas que brinda información sobre educación relevante, experiencia laboral y logros. En el último curso de este programa, tendrás la oportunidad de desarrollar un currículum y finalizar tu cartera. 
+
+Opciones para crear tu cartera 
+Hay muchas maneras de presentar una cartera, incluidas las opciones autoalojadas y en línea, como:
+
+Carpeta de documentos
+
+Google Drive o Dropbox™
+
+Google Sites
+
+Repositorios Git
+
+Opción 1: Carpeta de documentos
+
+Descripción: Una carpeta de documentos es una carpeta creada y guardada en el disco duro de tu computadora. Tú administras la carpeta, las subcarpetas, los documentos y las imágenes dentro de ella. 
+
+Las carpetas de documentos te permiten tener un acceso directo a tu documentación. El tener tus documentos profesionales, imágenes y otra información bien organizados puede ahorrarte mucho tiempo cuando vayas a solicitar un trabajo. Por ejemplo, es posible que quieras crear una carpeta principal titulada “Documentos profesionales”. Luego, dentro de tu carpeta principal, puedes crear subcarpetas con títulos como:
+
+Currículum
+
+Educación
+
+Documentos de la cartera
+
+Herramientas de ciberseguridad
+
+Programación 
+
+Configuración: las carpetas de documentos se pueden crear de varias maneras, dependiendo del tipo de computadora que utilices. Si no tienes claro cómo crear una carpeta en tu dispositivo, puedes buscar en Internet videos o documentos instructivos, de acuerdo al tipo de computadora que usas.
+
+Opción 2: Google Drive o Dropbox
+
+Descripción: Google Drive y Dropbox ofrecen funcionalidades similares que te permiten almacenar tu documentación profesional en una plataforma en la nube. Ambas opciones también tienen funciones para compartir archivos, por lo que puedes compartir fácilmente los documentos de tu cartera con posibles empleadores/as. Cualquier adición o cambio que hagas en un documento de esa carpeta se verá reflejado automáticamente y así lo verá cualquier persona que tenga acceso a tu cartera.
+
+Al igual que una carpeta de documentos, mantener bien organizada tu cartera basada en Google Drive o Dropbox será útil a medida que comiences o avances en tu trayectoria profesional.
+
+Configuración: para saber cómo cargar y compartir archivos en estas aplicaciones, visita los sitios web de Google Drive y Dropbox. 
+
+Opción 3: Google Sites
+
+Descripción: Google Sites y las opciones de alojamiento de sitios web similares tienen una variedad de funcionalidades fáciles de usar para ayudarte a presentar los elementos de tu cartera, que incluyen diseños personalizables, páginas web responsivas, capacidades de contenido incrustado y publicación web. 
+
+Las páginas web responsivas ajustan automáticamente su contenido para adaptarse a una variedad de dispositivos y tamaños de pantalla. Esto es útil porque los/las empleadores/as potenciales pueden revisar tu contenido utilizando cualquier dispositivo y tus medios se mostrarán como tú quieras. Cuando tengas todo listo, puedes publicar tu sitio web y recibir una URL única. Puedes agregar este enlace a tu currículum para que las personas a cargo de las contrataciones accedan fácilmente a tu trabajo.
+
+Configuración: para saber cómo crear un sitio web en Google Sites, visita el sitio web de Google Sites. 
+
+Opción 4: Repositorio Git
+
+Descripción: un repositorio Git es una carpeta dentro de un proyecto. En este caso, el proyecto es tu cartera, y puedes usar tu repositorio para almacenar los documentos, laboratorios y capturas de pantalla que completes durante cada curso del programa de certificado. Hay varios sitios de repositorios Git que puedes usar, entre ellos:
+
+GitLab
+
+Bitbucket™
+
+GitHub
+
+Cada repositorio Git te permite mostrar tus habilidades y conocimientos en un espacio personalizable. Para crear una cartera de proyectos en línea en cualquiera de los repositorios mencionados, debes usar una versión de Markdown. 
+
+Configuración: para obtener información sobre cómo crear una cuenta de GitHub y usar Markdown, sigue los pasos descritos en el documento
+ Comienza con GitHub
+.
+
+Cartera de proyectos
+Como mencionamos anteriormente, tendrás múltiples oportunidades a lo largo del programa de certificación para desarrollar elementos para incluir en tu cartera. Estas oportunidades incluyen:
+
+-Redacción de una declaración profesional
+
+-Realización de una auditoría de seguridad
+
+-Análisis de la estructura y seguridad de la red
+
+-Uso de comandos de Linux para administrar permisos de archivos
+
+-Aplicación de filtros a consultas SQL
+
+-Identificación de vulnerabilidades para una pequeña empresa
+
+-Documentación de incidentes con el diario de un gestor de incidentes 
+
+-Importación y análisis de un archivo de texto en un escenario relacionado con la seguridad
+
+-Creación o revisión de un currículum
+
+Nota: no incluyas en tu carpeta documentos privados, protegidos por derechos de autor o de propiedad intelectual. Además, si utilizas uno de los sitios descritos en esta lectura, mantén tu sitio configurado en “privado” hasta que termines.
+
+Conclusiones clave
+Ahora que conoces algunas opciones para crear y alojar una cartera profesional, puedes tomarlas en cuenta a medida que desarrollas elementos para incorporar, a lo largo del programa de certificación. Cuanto más proactivo/a seas a la hora de crear una cartera, bien armada, mayores serán tus posibilidades de impresionar a un/a empleador/a potencial y obtener un trabajo en ciberseguridad.
