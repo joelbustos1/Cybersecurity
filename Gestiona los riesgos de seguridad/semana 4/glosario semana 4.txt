@@ -1,0 +1,4 @@
+Términos y definiciones del curso 2, semana 4
+Manual de estrategias: Guía que proporciona detalles sobre cualquier acción operativa.
+
+Software antivirus: Programa utilizado para prevenir, detectar y eliminar software malicioso y virus. 

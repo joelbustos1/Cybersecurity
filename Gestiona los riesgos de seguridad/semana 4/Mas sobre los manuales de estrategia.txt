@@ -1,0 +1,53 @@
+Descripción general del manual de estrategias
+Un manual de estrategias es una guía que brinda detalles sobre cualquier acción operativa. Básicamente, proporciona una lista predefinida y actualizada de pasos para responder a un incidente.
+
+Une analyste qui utilise un playbook
+Los manuales van acompañados de una estrategia, que describe las expectativas de los miembros del equipo, a quienes se les asigna una tarea. Algunos también enumeran a las personas responsables. Las expectativas descritas van acompañadas de un plan, que indica cómo se debe completar la tarea específica descrita en el manual.
+
+Los manuales de estrategias deben tratarse como documentos vivos, o sea, los miembros del equipo de seguridad los actualizan con frecuencia, para abordar los cambios de la industria y las nuevas amenazas. Generalmente, se administran de forma colaborativa, porque los miembros del equipo de seguridad tienen diferentes niveles de experiencia.
+
+Los manuales de estrategias se modifican, particularmente, en los siguientes casos:
+
+Cuando se identifica una falla, como un descuido en las políticas y procedimientos descritos o en el manual en sí. 
+
+Cuando hay un cambio en los estándares de la industria, por ejemplo, en las leyes o en el cumplimiento normativo.
+
+Cuando el panorama de la ciberseguridad cambia debido a la evolución de las tácticas y técnicas de los agentes de amenaza.
+
+Tipos de manuales de estrategias
+Los manuales de estrategias a veces cubren vulnerabilidades e incidentes específicos. Estos podrían incluir ransomware (secuestro de datos), vishing, compromiso de correo electrónico empresarial (BEC) y otras ofensivas que ya mencionamos. Los manuales de respuesta a incidentes y vulnerabilidades son muy comunes, pero no son los únicos tipos de manuales que desarrollan las organizaciones. 
+
+Cada organización tiene un conjunto diferente de herramientas, metodologías, protocolos y procedimientos a los que adhieren, y diferentes personas están involucradas en cada paso del proceso de respuesta, dependiendo del país en el que se encuentren. Por ejemplo, los requisitos de notificación de incidentes de las leyes y regulaciones impuestas por el gobierno, junto con los estándares de cumplimiento, afectan al contenido de los manuales de estrategias. Estos requisitos están sujetos a cambios según el lugar donde se originó el incidente y el tipo de datos afectados. 
+
+Manuales de respuesta a incidentes y vulnerabilidades
+Los manuales de respuesta a incidentes y vulnerabilidades son muy utilizados por las y los profesionales de ciberseguridad de nivel inicial. Se desarrollan en función de los objetivos descritos en el plan de continuidad empresarial de una organización, que es un camino establecido que permite a una empresa recuperarse y continuar operando con normalidad, a pesar de una interrupción como, por ejemplo, una fuga de información.
+
+Estos dos tipos de manuales contienen listas predefinidas y actualizadas de pasos para responder a un incidente. Seguir estos pasos es necesario para garantizar que tú, como profesional de la seguridad, te adhieras a los estándares y protocolos legales y organizativos. Estos manuales también ayudan a minimizar los errores y garantizar que las acciones importantes se lleven a cabo en un plazo determinado.
+
+Cuando un incidente, amenaza o vulnerabilidad ocurre o se identifica, el nivel de riesgo para la organización depende del daño potencial a sus activos. Una fórmula básica para determinar el nivel de riesgo es que el riesgo es igual a la probabilidad de una amenaza. Por esta razón, actuar rápido es fundamental. Si se lleva a cabo alguna tarea forense, también es importante seguir los pasos descritos en los manuales de estrategias, porque un mal manejo puede comprometer fácilmente estos datos y hacerlos inutilizables. 
+
+Los pasos comunes incluidos en los manuales de respuesta a incidentes y vulnerabilidades incluyen: 
+
+Preparación: Las organizaciones deben prepararse para mitigar la probabilidad, el riesgo y el impacto de un incidente de seguridad, documentando procedimientos, creando planes para el personal y formando a los/las usuarios/as.
+
+Detección y analisis: El objetivo de esta fase es detectar y analizar eventos mediante procesos y tecnología definidos. El uso de las herramientas y estrategias adecuadas durante esta fase ayuda a los/las analistas de seguridad a determinar si se produjo una fuga y analizar su posible magnitud.
+ 
+Contención: El objetivo de la contención es prevenir un mayor daño y reducir el impacto inmediato de un incidente de seguridad.
+
+Erradicación y recuperación: Esta fase implica la eliminación completa de los artefactos de un incidente, de manera que una organización pueda volver a operar con normalidad. Durante esta fase, los/las profesionales de seguridad eliminan los artefactos del incidente al suprimir códigos maliciosos y mitigar vulnerabilidades. 
+ 
+Los pasos adicionales incluyen la realización de actividades posteriores al incidente y una coordinación de esfuerzos, a lo largo de las etapas de investigación y respuesta a incidentes y vulnerabilidades.
+
+Conclusiones clave
+Es fundamental perfeccionar los procesos y procedimientos descritos en un manual de estrategias. Con cada incidente documentado, los equipos de ciberseguridad deben considerar lo que se aprendió de él y qué mejoras se deben implementar para lidiar con ellos de manera más eficaz en el futuro. De esta manera, los manuales de estrategias crean estructura y garantizan el cumplimiento de la ley. 
+
+Recursos para obtener información adicional
+Los manuales de respuesta a incidentes y vulnerabilidades son solo dos ejemplos de los muchos manuales de estrategias que utiliza una organización. Si planeas trabajar como profesional de ciberseguridad fuera de los Estados Unidos, podrías explorar otros recursos como:
+
+Reino Unido, National Cyber Security Center (NCSC) — manejo de incidentes
+
+Gobierno de Australia — Plan de respuesta a incidentes cibernéticos
+
+Gobierno de Canadá — Manual de prácticas sobre Ransomware
+
+Gobierno de Escocia — Plantillas de manuales de estrategia

@@ -1,0 +1,6 @@
+El CSF es un marco voluntario que incluye estándares, pautas y mejores prácticas para manejar los riesgos de ciberseguridad. Este marco es muy respetado y esencial para mantener la seguridad, independientemente de dónde trabajes. El CSF consta de cinco funciones importantes. Identificar, proteger, detectar, responder y recuperar.
+Identificar: Está relacionada con la gestión del riesgo de ciberseguridad y su efecto en las personas y activos de una organización.
+Proteger: Es la estrategia utilizada para proteger a una organización mediante la implementación de políticas, procedimientos, capacitaciones y herramientas que ayudan a mitigar las amenazas de ciberseguridad.
+Detectar: Es identificar posibles incidentes de seguridad y mejorar las capacidades de monitoreo para aumentar la velocidad y eficiencia de las detecciones.
+Responder: Es tomar las medidas adecuadas para contener, neutralizar y analizar los incidentes de seguridad, e implementar mejoras en el proceso de seguridad.
+Recuperar: Es restaurar la operación normal de los sistemas afectados.
