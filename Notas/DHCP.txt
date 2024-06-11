@@ -1,0 +1,5 @@
+DHCP asigna automáticamente la información de direccionamiento, como la dirección IPv4, la máscara de subred, la puerta de enlace predeterminada y otra información de configuración, como se muestra en la figura.
+
+DHCP es generalmente el método preferido para asignar direcciones IPv4 a los hosts de grandes redes, dado que reduce la carga para al personal de soporte de la red y prácticamente elimina los errores de entrada.
+
+Otro de los beneficios del DHCP es que las direcciones no se asignan permanentemente a un host, sino que son arrendadas durante un período. Si el host se apaga o se desconecta de la red, la dirección regresa al pool para volver a utilizarse. Esto es especialmente útil en el caso de los usuarios móviles que entran en una red y salen de ella.

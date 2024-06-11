@@ -1,0 +1,13 @@
+Capa de Acceso
+
+La capa de acceso proporciona un punto de conexión a la red para los dispositivos para usuarios finales y permite que varios hosts se conecten a otros hosts a través de un dispositivo de red, generalmente un conmutador, como el Cisco 2960-XR que se muestra en la figura, o un punto de acceso inalámbrico. Normalmente, la porción de red de la dirección IP será la misma para todos los dispositivos de una misma capa de acceso.
+
+Si un mensaje está destinado a un host local, según se indique en la porción de red de la dirección IP, el mensaje permanecerá en el nivel local. Si está destinado a una red diferente, pasa a la capa de distribución. Los conmutadores proporcionan la conexión a los dispositivos de la capa de distribución, generalmente un dispositivo de Capa 3, como un enrutador o un conmutador de Capa 3.
+
+Capa de Distribución
+
+La capa de distribución proporciona un punto de conexión para redes separadas y controla el flujo de información entre las redes. Por lo general, contiene conmutadores más potentes, como la serie Cisco C9300 que se muestra en la figura, que la capa de acceso, así como enrutadores para el enrutamiento entre redes. Los dispositivos de la capa de distribución controlan el tipo y la cantidad de tráfico que circula desde la capa de acceso hasta la capa principal.
+
+Capa de Núcleo
+
+La capa de núcleo es una capa troncal de alta velocidad con conexiones redundantes (de respaldo). Es la encargada de transportar grandes cantidades de datos entre múltiples redes finales. Los dispositivos de capa de núcleo suelen incluir enrutadores y conmutadores muy potentes y de alta velocidad, como el Cisco Catalyst 9600 que se muestra en la figura. El objetivo principal de la capa de núcleo es transportar datos con rapidez.

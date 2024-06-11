@@ -1,0 +1,29 @@
+Las siguientes tareas deben completarse al configurar la configuración inicial en un enrutador.
+
+Paso 1. Configure el nombre del dispositivo.
+
+Router(config)# hostname hostname
+Paso 2. Proteja el modo EXEC con privilegios.
+
+Router(config)# enable secret password
+Paso 3. Proteger el modo EXEC de usuario.
+
+Router(config)# line console 0
+Router(config-line)# password password
+Router(config-line)# login
+Paso 4. Proteger el acceso remoto por Telnet y SSH.
+
+Router(config-line)# line vty 0 4
+Router(config-line)# password password
+Router(config-line)# login
+Router(config-line)# transport input {ssh | telnet | none | all}
+Paso 5. Proteja todas las contraseñas del archivo de configuración.
+
+Router(config-line)# exit
+Router(config)# service password-encryption
+Paso 6. Proporcione una notificación legal.
+
+Router(config)# banner motd delimiter message delimiter
+Paso 7. Guarde la configuración.
+
+Router(config)# copy running-config startup-config

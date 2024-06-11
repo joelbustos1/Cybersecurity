@@ -1,0 +1,4 @@
+Las direcciones IPv4 se guardan en octetos binarios pero que para leerlos se los pasa a decimal.
+192.160.3.10
+network  | host
+el host debe de ser unico y si estas en la misma red network tiene que ser igual

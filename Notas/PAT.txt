@@ -1,0 +1,5 @@
+El procesamiento se refiere a los datos que se utilizan para realizar una operación como la actualización de un registro de base de datos (datos en proceso).
+
+El almacenamiento se refiere a los datos almacenados en la memoria o en un dispositivo de almacenamiento permanente, como un disco duro, una unidad de estado sólido o una unidad USB (datos en reposo).
+
+La transmisión se refiere a los datos que viajan entre sistemas de información (datos en tránsito).

@@ -1,0 +1,39 @@
+Los tipos de mensajes ICMP y las razones por las que se envían son extensos. Los mensajes ICMP comunes a ICMPv4 e ICMPv6 y discutidos en este módulo incluyen:
+
+-Accesibilidad al host
+-Destino o servicio inaccesible
+-Tiempo superado
+---------------
+Destino o Servicio Inalcanzable
+Algunos de los códigos de destino inalcanzable para ICMPv4 son los siguientes:
+
+0 - Red inalcanzable
+1 - Host inalcanzable
+2 - Protocolo inalcanzable
+3 - Puerto inalcanzable
+Algunos de los códigos de destino inalcanzable para ICMPv6 son los siguientes:
+
+0 - No hay ruta para el destino
+1 - La comunicación con el destino está prohibida administrativamente (por ejemplo, firewall)
+2 - Más allá del alcance de la dirección de origen
+3 - No se puede alcanzar la dirección
+4 - Puerto inalcanzable
+---------------
+Tiempo Excedido
+Los routers utilizan los mensajes de tiempo superado de ICMPv4 para indicar que un paquete no puede reenviarse debido a que el campo de tiempo de duración (TTL) del paquete se disminuyó a 0. Si un router recibe un paquete y disminuye el campo TTL en el paquete IPV4 a cero, descarta el paquete y envía un mensaje de tiempo superado al host de origen.
+
+ICMPv6 también envía un mensaje de tiempo superado si el router no puede reenviar un paquete IPv6 debido a que el paquete caducó. En lugar del campo TTL de IPv4, ICMPv6 usa el campo Límite de salto de IPv6 para determinar si el paquete ha expirado.
+---------------
+Mensajes ICMPv6
+Los mensajes informativos y de error que se encuentran en ICMPv6 son muy similares a los mensajes de control y de error que implementa ICMPv4. Sin embargo, ICMPv6 tiene nuevas características y funcionalidad mejorada que no se encuentran en ICMPv4. Los mensajes ICMPv6 están encapsulados en IPv6.
+
+ICMPv6 incluye cuatro mesajes nuevos como parte del protocolo de detección de vecino (ND o NDP).
+
+Los mensajes entre un router IPv6 y un dispositivo IPv6, incluida la asignación dinámica de direcciones, son los siguientes:
+
+Mensaje de solicitud de router (RS)
+Mensaje de anuncio de router (RA)
+Los mensajes entre dispositivos IPv6, incluida la detección de direcciones duplicadas y la resolución de direcciones, son los siguientes:
+
+Mensaje de solicitud de vecino (NS)
+Mensaje de anuncio de vecino (NA)

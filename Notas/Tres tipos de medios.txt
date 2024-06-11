@@ -1,0 +1,5 @@
+Las redes modernas utilizan principalmente tres tipos de medios para interconectar dispositivos, como se muestra en la figura:
+
+-Hilos metálicos dentro de cables - Los datos se codifican en impulsos eléctricos.
+-Fibras de vidrio o plástico (cable de fibra óptica) - Los datos se codifican como pulsos de luz.
+-Transmisión inalámbrica - Los datos se codifican a través de la modulación de frecuencias específicas de ondas electromagnéticas.

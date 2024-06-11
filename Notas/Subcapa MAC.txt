@@ -1,0 +1,12 @@
+La subcapa MAC es responsable de la encapsulación de datos y el acceso a los medios.
+
+Encapsulación de Datos
+
+La encapsulación de datos IEEE 802.3 incluye lo siguiente:
+
+Trama de Ethernet - Esta es la estructura interna de la trama Ethernet.
+Direccionamiento Ethernet - La trama Ethernet incluye una dirección MAC de origen y destino para entregar la trama Ethernet de NIC Ethernet a NIC Ethernet en la misma LAN.
+Detección de Errores Ethernet - La trama Ethernet incluye un tráiler de secuencia de verificación de trama (FCS) utilizado para la detección de errores.
+Acceso a los Medios
+
+Como se muestra en la figura, la subcapa MAC IEEE 802.3 incluye las especificaciones para diferentes estándares de comunicaciones Ethernet sobre varios tipos de medios, incluyendo cobre y fibra.

@@ -1,0 +1,14 @@
+Clientes Enviando Solicitudes UDP
+El Cliente 1 envía una solicitud de DNS mientras que el Cliente 2 solicita los servicios de autenticación RADIUS del mismo servidor.
+
+Puertos de Destino de la Solicitud UDP
+El cliente 1 está enviando una solicitud DNS utilizando el conocido puerto de destino 53, mientras que el cliente 2 solicita servicios de autenticación RADIUS mediante el puerto registrado de destino 1812.
+
+Puertos de Origen de la Solicitud UDP
+Las solicitudes de los clientes generan dinámicamente números de puerto de origen. En este caso, el cliente 1 está utilizando el puerto de origen 49152 y el cliente 2 está utilizando el puerto de origen 51152.
+
+Destino de Respuesta UDP
+Cuando el servidor responde a las solicitudes del cliente, invierte los puertos de destino y origen de la solicitud inicial. En la respuesta del servidor a la solicitud DNS ahora es el puerto de destino 49152 y la respuesta de autenticación RADIUS ahora es el puerto de destino 51152.
+
+Puertos de Origen de Respuesta UDP
+Los puertos de origen en la respuesta del servidor son los puertos de destino originales en las solicitudes iniciales.

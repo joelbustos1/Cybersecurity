@@ -1,0 +1,19 @@
+-Examinar la Dirección MAC de Origen
+Se revisa cada trama que ingresa a un conmutador para obtener información nueva. Esto se realiza examinando la dirección MAC de origen de la trama y el número de puerto por el que ingresó al conmutador. Si la dirección MAC de origen no existe, se la agrega a la tabla, junto con el número de puerto de entrada. Si la dirección MAC de origen existe en la tabla, el conmutador actualiza el temporizador de actualización para esa entrada. De manera predeterminada, la mayoría de los conmutadores Ethernet guardan una entrada en la tabla durante cinco minutos.
+
+En la figura, por ejemplo, la PC-A está enviando una trama Ethernet a la PC-D. La tabla muestra que el conmutador agrega la dirección MAC para PC-A a la tabla de direcciones MAC.
+
+Nota: Si la dirección MAC de origen existe en la tabla, pero en un puerto diferente, el conmutador la trata como una entrada nueva. La entrada se reemplaza con la misma dirección MAC, pero con el número de puerto más actual.
+
+PC-A envía una trama Ethernet.
+El conmutador agrega el número de puerto y la dirección MAC para PC-A a la tabla de direcciones MAC.
+
+-Buscar la Dirección MAC de Destino
+Si la dirección MAC de destino es una dirección de unidifusión, el conmutador busca una coincidencia entre la dirección MAC de destino de la trama y una entrada en la tabla de direcciones MAC. Si la dirección MAC de destino está en la tabla, reenvía la trama por el puerto especificado. Si la dirección MAC de destino no está en la tabla, el conmutador reenvía la trama por todos los puertos, excepto el puerto de entrada. Esto se conoce como una unidifusión desconocida.
+
+Como se muestra en la figura, el switch no tiene la dirección MAC de destino en su tabla para PC-D, por lo que envía la trama a todos los puertos excepto el puerto 1.
+
+Nota: Si la dirección MAC de destino es de difusión o multidifusión, la trama también se envía a todos los puertos, excepto el puerto de entrada.
+
+La dirección MAC de destino no está en la tabla.
+El switch reenviará la trama a todos los puertos.

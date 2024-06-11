@@ -1,0 +1,8 @@
+Los seis indicadores de bits de control son los siguientes:
+
+URG - Campo indicador urgente significativo
+ACK- Indicador de acuse de recibo utilizado en el establecimiento de la conexión y la terminación de la sesión
+PSH - Función de empuje
+RST- Restablece la conexión cuando se produce un error o un tiempo de espera
+SYN- Sincroniza números de secuencia utilizados en el establecimiento de conexión
+FIN- No más datos del remitente y se utilizan en la terminación de la sesión

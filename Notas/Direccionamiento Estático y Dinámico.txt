@@ -1,0 +1,14 @@
+Las direcciones IPv4 pueden asignarse de manera estática o dinámica.
+
+Con una asignación estática, el administrador de red debe configurar manualmente la información de red para un host. Como mínimo, esto incluye lo siguiente:
+
+Dirección IP - Identifica al host en la red.
+Máscara de subred - Se utiliza para identificar la red a la que está conectado el host.
+Puerta de enlace predeterminada - Identifica el dispositivo de red que utiliza el host para acceder a Internet o a otra red remota.
+Las direcciones estáticas tienen algunas ventajas. Por ejemplo, son útiles para impresoras, servidores y otros dispositivos de red que deben estar accesibles para los clientes de la red. Si los hosts normalmente acceden al servidor en una dirección IPv4 en particular, no es adecuado que se cambie esa dirección.
+
+La asignación estática de la información de direccionamiento puede proporcionar un mayor control de los recursos de red, pero introducir la información en cada host puede ser muy lento. Cuando se introducen direcciones IPv4 estáticamente, el host solo realiza comprobaciones de errores básicas en la dirección IPv4. Por lo tanto, es más probable que haya errores.
+
+Cuando se utiliza el direccionamiento IPv4 estático, es importante mantener una lista precisa de qué direcciones IPv4 se asignan a qué dispositivos. Además, estas direcciones son permanentes y generalmente no se reutilizan.
+
+Dinamica: En las redes locales, es habitual que la población de usuarios cambie frecuentemente. Los nuevos usuarios llegan con computadoras portátiles y necesitan una conexión. Otros tienen nuevas estaciones de trabajo que necesitan conexión. En lugar de que el administrador de red deba asignar las direcciones IPv4 para cada estación de trabajo, es más fácil que las direcciones IPv4 se asignen automáticamente. Esto se logra a través de un protocolo denominado Protocolo de Configuración Dinámica de Host (DHCP).

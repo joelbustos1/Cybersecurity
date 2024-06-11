@@ -1,0 +1,7 @@
+TCP proporciona confiabilidad y control de flujo mediante estas operaciones básicas:
+
+-Numerar y rastrear segmentos de datos transmitidos a un host específico desde una aplicación específica
+-Confirmar acuses de recibidos
+-Vuelver a transmitir cualquier información no reconocida después de un cierto período de tiempo
+-Datos de secuencia que pueden llegar en un orden incorrecto
+-Enviar datos a una velocidad eficiente que sea aceptable por el receptor

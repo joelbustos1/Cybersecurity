@@ -1,0 +1,10 @@
+El ancho de banda es la capacidad de un medio para transportar datos. El ancho de banda digital mide la cantidad de datos que pueden fluir desde un lugar hacia otro en un período de tiempo determinado. El ancho de banda generalmente se mide con la cantidad de bits que (en teoría) puede enviarse a través de los medios en un segundo. Las medidas comunes de ancho de banda son las siguientes:
+
+Miles de bits por segundo (Kbps)
+Millones de bits por segundo (Mbps)
+Miles de millones de bits por segundo (Gbps)
+El rendimiento no suele coincidir con el ancho de banda especificado. Muchos factores influyen en el rendimiento, incluidos los siguientes:
+
+La cantidad de datos que se envían y reciben por la conexión
+La latencia creada por la cantidad de dispositivos de red encontrados entre origen y destino
+El concepto de latencia se refiere a la cantidad de tiempo,

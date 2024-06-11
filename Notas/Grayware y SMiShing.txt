@@ -1,0 +1,5 @@
+La técnica de Grayware incluye aplicaciones que se comportan de manera molesta o no deseada. Y si bien es posible que el malware no contenga ningún malware reconocible, aún puede representar un riesgo para el usuario, por ejemplo, mediante el seguimiento de su ubicación o la entrega de publicidad no deseada.
+
+Los creadores de grayware mantienen generalmente la legitimidad al incluir las capacidades de una aplicación en la letra chica del contrato de licencia de software. Este factor representa una amenaza creciente para la seguridad móvil en particular, ya que muchos usuarios de smartphones instalan aplicaciones móviles sin tener realmente en cuenta esta letra pequeña. 
+
+La suplantación de identidad de servicio de mensajes cortos o SMiShing es otra táctica utilizada por los atacantes para engañarlo. Los mensajes de texto falsos le piden que visite un sitio web malicioso o llame a un número de teléfono fraudulento, lo que puede provocar la descarga de malware en su dispositivo o el intercambio de información personal. 

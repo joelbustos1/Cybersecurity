@@ -1,0 +1,19 @@
+Casi todos los dispositivos móviles se pueden conectar a redes WiFi. A continuación, se detallan las precauciones que se deben tomar para proteger las comunicaciones por WiFi en los dispositivos móviles:
+
+Nunca envíe información de inicio de sesión o contraseñas a través de texto sin encriptar (texto normal).
+Use una conexión VPN siempre que sea posible si está enviando datos confidenciales.
+Habilite la seguridad en las redes domésticas.
+Utilice WPA2 o un cifrado superior para mayor seguridad.
+Dos de los sistemas operativos más populares para dispositivos móviles son Android y Apple iOS. Los dispositivos móviles están preprogramados para usar una red Wi-Fi para Internet, si hay una disponible, y el dispositivo puede conectarse al punto de acceso y recibir una dirección IP. Si no hay ninguna red WiFi disponible, el dispositivo usa la funcionalidad de datos celulares, si está configurada.
+
+La tecnología Bluetooth proporciona una manera simple para que los dispositivos móviles se conecten entre sí y a los accesorios inalámbricos. Bluetooth es una tecnología inalámbrica, automática y que utiliza muy poca energía, lo cual contribuye a preservar la vida útil de la batería. Algunos ejemplos de dispositivos que utilizan Bluetooth incluyen auriculares manos libres, teclados, mouse, controles estéreo, altavoces para automóviles y altavoces móviles.
+
+El emparejamiento Bluetooth se produce cuando dos dispositivos Bluetooth establecen una conexión para compartir recursos. Para que los dispositivos se emparejen, se activa la conexión Bluetooth, y uno de los dispositivos comienza a buscar otros dispositivos. Los demás dispositivos deben estar en modo visible para que se los pueda detectar.
+
+Cuando un dispositivo Bluetooth se encuentra en modo visible, transmite la siguiente información cuando otro dispositivo Bluetooth la solicita:
+
+Nombre
+Clase de Bluetooth
+Servicios que puede utilizar el dispositivo
+Información técnica, por ejemplo, las características o la especificación de Bluetooth que admite
+Durante el proceso de emparejamiento, se puede solicitar un PIN para autenticar el proceso de emparejamiento.

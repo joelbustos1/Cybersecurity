@@ -1,0 +1,5 @@
+Los tipos de pruebas de conectividad que se realizan con ping son los siguientes:
+
+Hacer ping al loopback local
+Hacer ping a la puerta de enlace predeterminada
+Hacer ping al host remoto

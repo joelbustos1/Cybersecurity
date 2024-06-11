@@ -1,0 +1,16 @@
+-En Ethernet, se utilizan diferentes direcciones MAC para las comunicaciones de unidifusión, difusión y multidifusión de Capa 2.
+
+Una dirección MAC de unidifusión es la dirección única que se utiliza cuando se envía una trama desde un único dispositivo de transmisión a un único dispositivo de destino.
+
+-Una trama de difusión de Ethernet es recibida y procesada por cada dispositivo de la LAN Ethernet. Las características de una transmisión Ethernet son las siguientes:
+
+Tiene una dirección MAC de destino de FF-FF-FF-FF-FF-FF en hexadecimal (48 unidades en binario).
+Se inunda hacia todos los puertos del conmutador Ethernet excepto el puerto entrante.
+No es reenviada por un enrutador.
+
+-Una trama de multicast de Ethernet es recibida y procesada por un grupo de dispositivos en la LAN de Ethernet que pertenecen al mismo grupo de multicast. Las características de una multicast Ethernet son las siguientes:
+
+Hay una dirección MAC de destino 01-00-5E cuando los datos encapsulados son un paquete de multidifusión IPv4 y una dirección MAC de destino de 33-33 cuando los datos encapsulados son un paquete de multidifusión IPv6.
+Existen otras direcciones MAC de destino de multicast reservadas para cuando los datos encapsulados no son IP, como Spanning Tree Protocol (STP) y Link Layer Discovery Protocol (LLDP).
+Se inundan todos los puertos del conmutador Ethernet excepto el puerto entrante, a menos que el conmutador esté configurado para la indagación de multidifusión.
+No es reenviado por un enrutador, a menos que el enrutador esté configurado para enrutar paquetes de multidifusión.

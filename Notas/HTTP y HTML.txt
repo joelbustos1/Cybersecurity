@@ -1,0 +1,3 @@
+Cuando un cliente web recibe una dirección IP de un servidor web, el explorador cliente utiliza esa dirección IP y el puerto 80 para solicitar servicios web. Esta solicitud se envía al servidor mediante el protocolo de transferencia de hipertexto (HTTP, Hypertext Transfer Protocol).
+
+Cuando el servidor recibe una solicitud del puerto 80, responde la solicitud del cliente y le envía la página Web. El contenido de la información de una página Web se codifica utilizando lenguajes de "etiquetas" especializados. La codificación del Lenguaje de Marcado de Hipertexto (HTML) indica al navegador cómo formatear la página web y qué gráficos y fuentes usar. HTML es el lenguaje más utilizado.

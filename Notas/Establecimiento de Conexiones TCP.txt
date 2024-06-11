@@ -1,0 +1,8 @@
+Paso 1. SYN
+El cliente de origen solicita una sesión de comunicación con el servidor.
+
+Paso 2. ACK y SYN
+El servidor acusa recibo de la sesión de comunicación de cliente a servidor y solicita una sesión de comunicación de servidor a cliente.
+
+Paso 3. ACK
+El cliente de origen acusa recibo de la sesión de comunicación de servidor a cliente.

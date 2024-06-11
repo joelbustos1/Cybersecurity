@@ -1,0 +1,11 @@
+Paso 1. FIN
+Cuando el cliente no tiene más datos para enviar en la transmisión, envía un segmento con el indicador FIN establecido.
+
+Paso 2. ACK
+El servidor envía un ACK para acusar recibo del FIN para terminar la sesión de cliente a servidor.
+
+Paso 3. FIN
+El servidor envía un FIN al cliente para terminar la sesión de servidor a cliente.
+
+Paso 4. ACK
+El cliente responde con un ACK para dar acuse de recibo del FIN desde el servidor.

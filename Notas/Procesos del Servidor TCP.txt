@@ -1,0 +1,14 @@
+Clientes Enviando Solicitudes TCP
+El Cliente 1 está solicitando servicios web y el Cliente 2 está solicitando servicio de correo electrónico del mismo servidor.
+
+Puertos de Destino de Solicitud
+El cliente 1 está solicitando servicios web utilizando el conocido puerto de destino 80 (HTTP) y el cliente 2 está solicitando servicio de correo electrónico utilizando el conocido puerto 25 (SMTP).
+
+Puertos de Origen de Solicitud
+Las solicitudes de cliente generan dinámicamente un número de puerto de origen. En este caso, el Cliente 1 está utilizando el puerto de origen 49152 y el Cliente 2 está utilizando el puerto de origen 51152.
+
+Puertos de Destino de Respuesta
+Cuando el servidor responde a las solicitudes del cliente, invierte los puertos de destino y origen de la solicitud inicial. Observe que la respuesta del servidor a la solicitud web ahora tiene el puerto de destino 49152 y la respuesta de correo electrónico ahora tiene el puerto de destino 51152.
+
+Puertos de Origen de Respuesta
+El puerto de origen en la respuesta del servidor es el puerto de destino original en las solicitudes iniciales.

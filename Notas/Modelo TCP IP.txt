@@ -1,0 +1,4 @@
+Aplicación: representa datos para el usuario más el control de codificación y de dialogo.
+Transporte: admite la comunicacion entre distintos dispositivos a traves de diversas redes.
+Internet: determina el mejor camino a traves de la red.
+Acceso a la red: controla los dispositivos del hardware y los medios que forman la red.

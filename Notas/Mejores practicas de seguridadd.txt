@@ -1,0 +1,13 @@
+Realizar evaluacion de riesgos: Conocer y comprender el valor de lo que está protegiendo ayudará a justificar los gastos de seguridad.
+Crear una politica de seguridad: Cree una política que describa claramente las reglas, los roles laborales y las responsabilidades y expectativas de los empleados de la organización.
+Medidas de seguridad fisicas: Restrinja el acceso a los armarios de redes y a ubicaciones del servidor, así como a la extinción de incendios.
+Medidas de seguridad de recursos humanos: Las verificaciones de antecedentes deben completarse para todos los empleados.
+Realice y pruebe copias de seguridad: Realice copias de seguridad de la información con regularidad y pruebe la recuperación de datos a partir de copias de seguridad.
+Mantenga actualizaciones y copias de seguridad: Actualice periódicamente los programas y sistemas operativos de servidor, cliente y dispositivo de red.
+Emplee controles de acceso: Configure los roles de usuario y los niveles de privilegio, así como una autenticación de usuario sólida.
+Pruebe regularmente la respuesta a incidentes: Utilice un equipo de respuesta ante incidentes y pruebe los escenarios de respuesta ante emergencias.
+Implemente una herramienta de administración, analisis y monitoreo de red: Elija una solución de monitoreo de seguridad que se integre en otras tecnologías.
+Implemente dispositivos de seguridad de red: Utilice enrutadores, firewalls y otros dispositivos de seguridad de próxima generación.
+Implemente una solucion integral de seguridad para endpoints: Utilice software antivirus y antimalware en el nivel de la empresa.
+Eduque a los usuarios: Proporcione capacitación a los empleados en procedimientos de seguridad.
+Cifrar datos: Cifre todos los datos organizativos confidenciales, incluido el correo electrónico.

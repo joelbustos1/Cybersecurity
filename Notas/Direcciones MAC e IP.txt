@@ -1,0 +1,2 @@
+Dirección física (la dirección MAC) – Se utiliza para las comunicaciones de NIC a NIC en la misma red Ethernet.
+Dirección lógica (la dirección IP) – Se utiliza para enviar el paquete desde el dispositivo de origen al dispositivo de destino. La dirección IP de destino puede estar en la misma red IP que la de origen o en una red remota.

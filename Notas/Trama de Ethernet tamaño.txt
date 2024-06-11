@@ -1,0 +1,7 @@
+El tamaño mínimo de la trama de Ethernet es de 64 bytes y el máximo esperado es de 1518 bytes. Esto incluye todos los bytes desde el campo de dirección MAC de destino hasta el campo de secuencia de verificación de trama (FCS). El campo preámbulo no se incluye al describir el tamaño de una trama.
+
+Nota: El tamaño de la trama puede ser mayor si se incluyen requisitos adicionales, como el etiquetado de VLAN. El etiquetado de VLAN está fuera del alcance de este curso.
+
+Cualquier trama de menos de 64 bytes de longitud se considera un fragmento de colisión o una trama corta, y es descartada automáticamente por las estaciones receptoras. Las tramas de más de 1500 bytes de datos se consideran “jumbo” o "tramas bebés gigantes".
+
+Si el tamaño de una trama transmitida es menor que el mínimo o mayor que el máximo, el dispositivo receptor descarta la trama. Es posible que las tramas descartadas se originen en colisiones u otras señales no deseadas. Ellas se consideran inválidas Las tramas jumbo suelen ser compatibles con la mayoría de los conmutadores Fast Ethernet y Gigabit Ethernet, y las NICs.

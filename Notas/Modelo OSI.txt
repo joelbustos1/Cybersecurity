@@ -1,0 +1,7 @@
+7- Aplicacion: la capa de aplicacion contiene protocolos utilizados para comunicaciones proceso a proceso.
+6- Presentacion: la capa de presentacion proporciona una representacion comun de los datos transferidos entre los servicios de la capa de aplicacion.
+5- Sesion: la capa de sesion proporciona servicios a la capa de presentacion para organizar su dialogo y administracion el intercambio de datos.
+4- Transporte: la capa de transporte define los servicios para segmentar, transferir y reensanmblar los datos para las comunicaciones individuales entre terminales.
+3- Red: la capa de red proporciona servicios para intercambiar los datos individuales en la red entre terminales identificados.
+2- Enlace de datos: los protocolos de la capa de enlace de datos describen los metodos para intercambiar tramas de datos entre dispositivos en un medio comun.
+1- Fisica: los protocolos de la capa fisica describen los medios mecanicos, electricos, funcionales y de procedimiento para activar, mantener y desactivar conexiones fisicas para una transmision de bits hacia y desde un dispositivo de red.

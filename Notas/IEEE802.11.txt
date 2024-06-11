@@ -1,0 +1,1 @@
+El estándar IEEE 802.11 rige el entorno WLAN. Ciertas modificaciones al estándar IEEE 802.11 describen las características de los diferentes estándares para las comunicaciones inalámbricas. Los estándares inalámbricos para redes LAN usan las bandas de frecuencia de 2.4 GHz y 5 GHz. En conjunto, estas tecnologías se conocen como Wi-Fi.

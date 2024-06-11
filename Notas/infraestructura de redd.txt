@@ -1,0 +1,5 @@
+La infraestructura de red contiene tres categorías de componentes de hardware, como se muestra en la figura:
+
+-Dispositivos finales: telefonos, computadoras, impresoras, etc.
+-Dispositivos intermedios: routers, switches, etc.
+-Medios de red: Medios inalambricos, Medios LAN y Medios WAN.

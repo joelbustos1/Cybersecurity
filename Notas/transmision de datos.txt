@@ -1,0 +1,12 @@
+Las siguientes categorías se utilizan para clasificar los tipos de datos personales:
+
+Datos voluntarios - Estos son creados y compartidos explícitamente por individuos, como perfiles de redes sociales. Este tipo de datos podría incluir archivos de vídeo, imágenes, texto o archivos de audio.
+Datos observados - se capturan al registrar las acciones de las personas, como los datos de ubicación cuando usan teléfonos celulares.
+Datos inferidos - se trata de datos como una puntuación de crédito, que se basa en el análisis de datos voluntarios u observados.
+El término bit es la abreviatura de “binary digit” (dígito binario) y representa la unidad de datos más pequeña. Cada bit solo puede tener uno de dos valores posibles: 0 o 1.
+
+Se utilizan tres métodos comunes para transmitir señales en las redes:
+
+Señales eléctricas - La transmisión se logra representando los datos como pulsos eléctricos en un cable de cobre.
+Señales ópticas - La transmisión se logra convirtiendo las señales eléctricas en pulsos de luz.
+Señales inalámbricas - La transmisión se logra mediante el uso de ondas infrarrojas, microondas o de radio a través del aire.

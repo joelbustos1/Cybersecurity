@@ -1,0 +1,5 @@
+La concientización, la capacitación y la educaciónson las medidas implementadas por una organización para garantizar que los usuarios estén informados sobre las posibles amenazas a la seguridad y las acciones que pueden tomar para proteger los sistemas de información.
+
+La tecnología se refiere a las soluciones basadas en software (y hardware) diseñadas para proteger los sistemas de información como los firewalls, que monitorean continuamente su red en busca de posibles incidentes maliciosos.
+
+La política y el procedimiento se refieren a los controles administrativos que proporcionan una base para la forma en que una organización implementa el aseguramiento de la información, como los planes de respuesta a incidentes y las pautas de mejores prácticas.

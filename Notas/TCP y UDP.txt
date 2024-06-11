@@ -1,0 +1,7 @@
+TCP Y UDP
+Cuando los networkers hablan de TCP y UDP hablan de confiabilidad
+UDP no importa si hay perdida de paquetes, si los paquetes se pierden no se retransmiten y no hay ninguna preocupacion sobre si llegan o no (se suele usar para por ejemplo llamadas de voz)
+TCP la confiabilidad esta incorporada, hay un mecanismo que asegura que se pierdan la menor cantidad de paquetes y en segundo lugar que si alguno ses pierde se retrasmitiran automaticamente (ejemplo transferencias bancarias)
+
+La diferencia es que TCP tiene un reconocimiento de recepcion de paquetes y tiene secuencia de numeros
+UDP no tiene reconocimiento y no hay secuencia de numeros

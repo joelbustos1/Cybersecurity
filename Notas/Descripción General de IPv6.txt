@@ -1,0 +1,5 @@
+Las mejoras que ofrece IPv6 incluyen las siguientes:
+
+.Mayor Espacio de Direcciones - Las direcciones IPv6 se basan en direcciones jerárquicas de 128 bits en lugar de IPv4 con 32 bits.
+.Manejo de Paquetes Mejorado - El encabezado de IPv6 se ha simplificado con menos campos.
+.Elimina la necesidad de NAT - Con una cantidad tan grande de direcciones IPv6 públicas, no se necesita NAT entre una dirección IPv4 privada y una IPv4 pública. Esto evita algunos de los problemas inducidos por NAT que experimentan las aplicaciones que requieren conectividad de extremo a extremo.

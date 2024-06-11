@@ -1,0 +1,5 @@
+Los puertos son asignados y administrados por una organización conocida como la Corporación de Internet para Nombres y Números Asignados (Internet Corporation for Assigned Names and Numbers, ICANN). Los puertos se dividen en tres categorías y van de 1 a 65 535:
+
+-Puertos Conocidos - Los puertos de destino que están asociados con aplicaciones de red comunes se identifican como puertos conocidos. Estos puertos están en el rango de 1 a 1023.
+-Puertos Registrados - Los puertos 1024 a 49151 pueden usarse como puertos de origen o de destino. Las organizaciones los utilizan para registrar aplicaciones específicas, como las aplicaciones IM.
+-Puertos Privados - Los puertos 49152 a 65535, usados frecuentemente como puertos de origen. Estos puertos pueden ser utilizados por cualquier aplicación.

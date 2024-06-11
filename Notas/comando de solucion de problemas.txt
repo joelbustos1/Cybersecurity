@@ -1,0 +1,21 @@
+Existen varias utilidades de software disponibles que permiten ayudar a identificar problemas de redes. La mayoría de estas utilidades se proporciona con el sistema operativo como comandos de interfaz de línea de comandos (CLI). La sintaxis de los comandos puede variar según el sistema operativo.
+
+Éstas son algunas de las utilidades disponibles:
+
+ipconfig - Muestra información de la configuración IP
+-Cuando un dispositivo no obtiene una dirección IP o tiene una configuración de IP incorrecta, no puede comunicarse en la red ni acceder a Internet. En dispositivos Windows, puede ver la información de configuración IP con el comando ipconfig en la línea de comandos. El comando ipconfig tiene varias opciones útiles, como /all, /releasey /renew.
+
+ipconfig /all
+-El comando ipconfig /all muestra información adicional, que incluye la dirección MAC y las direcciones IP de la puerta de enlace predeterminada y los servidores DNS. También indica si DHCP está activado, la dirección del servidor DHCP y la información de arrendamiento.
+¿Qué puede aportar esta utilidad en el proceso de resolución de problemas? Sin una configuración IP adecuada, el host no puede participar en comunicaciones por la red. Si el host no conoce la ubicación de los servidores DNS no puede traducir los nombres y convertirlos en direcciones IP.
+
+ipconfig /release y ipconfig /renew
+-Si la información de direccionamiento IP se asigna dinámicamente, el comando ipconfig /release liberará los enlaces DHCP actuales. ipconfig /renew solicitará información de configuración actualizada del servidor DHCP. Un host puede contener información de configuración IP defectuosa o desactualizada; para volver a adquirir conectividad solo se requiere una simple renovación de esta información.
+-Si después de enviar la configuración IP el host no puede obtener información actualizada del servidor DHCP, es posible que no haya conectividad de red. Verifique que la NIC tenga iluminada una luz de enlace, lo que indica que existe una conexión física con la red. Si esto no soluciona el problema, quizás exista un inconveniente en el servidor DHCP o en las conexiones de red con el servidor DHCP.
+
+ping - Prueba las conexiones con otros hosts IP
+Al enviar un comando ping a una dirección IP, se envía un paquete conocido como solicitud de eco a través de la red a la dirección IP especificada. Si recibe la solicitud de eco, el host de destino responde con un paquete denominado respuesta de eco. Si la fuente recibe la respuesta de eco, la respuesta de la dirección IP específica verifica la conectividad. El ping no se realiza correctamente si aparece un mensaje como tiempo de espera de solicitud o falla general.
+
+netstat - Muestra las conexiones de red
+tracert - Muestra la ruta exacta recorrida hasta el destino
+nslookup - Directamente solicita al servidor de nombres información sobre un dominio de destino

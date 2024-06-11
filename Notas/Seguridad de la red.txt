@@ -1,0 +1,9 @@
+La infraestructura de red, los servicios y los datos contenidos en los dispositivos conectados a la red son activos comerciales y personales muy importantes. Los administradores de red deben abordar dos tipos de problemas de seguridad de red: seguridad de la infraestructura de red y seguridad de la información.
+
+Asegurar la infraestructura de red incluye asegurar físicamente los dispositivos que proporcionan conectividad de red y evitar el acceso no autorizado al software de administración que reside en ellos, como se muestra en la figura.
+
+Los administradores de red también deben proteger la información contenida en los paquetes que se transmiten a través de la red y la información almacenada en los dispositivos conectados a la red. Para alcanzar los objetivos de seguridad de la red, hay tres requisitos principales
+
+Confidencialidad- La confidencialidad de los datos se refiere a que solamente los destinatarios deseados y autorizados pueden acceder a los datos y leerlos.
+Integridad- Integridad de datos significa tener la seguridad de que la información no ha sido alterada en la transmisión, del origen al destino.
+Disponibilidad- Significa tener la seguridad de acceder en forma confiable y oportuna a los servicios de datos para usuarios autorizados.

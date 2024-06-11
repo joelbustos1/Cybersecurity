@@ -1,0 +1,8 @@
+Firewall de la capa de red: Esto filtra las comunicaciones según las direcciones IP de origen y destino.
+Firewall de la capa de transporte: Filtra las comunicaciones según los puertos de datos de origen y destino, así como los estados de conexión.
+Firewall de la capa de aplicación: Filtra las comunicaciones en función de una aplicación, programa o servicio.
+Firewall de capa sensible al contexto: Filtra las comunicaciones según el usuario, el dispositivo, la función, el tipo de aplicación y el perfil de amenaza.
+Servidor proxy: Filtra las solicitudes de contenido web, como URL, nombres de dominio y tipos de medios.
+Servidor proxy inverso: Colocados frente a servidores web, los servidores proxy inversos protegen, ocultan, descargan y distribuyen el acceso a los servidores web.
+Firewall de traduccion de direcciones de redd (NAT): Este cortafuegos oculta o enmascara las direcciones privadas de los hosts de la red.
+Firewall basado en el host: Filtra puertos y llamadas de servicio del sistema en un solo sistema operativo de computadora.

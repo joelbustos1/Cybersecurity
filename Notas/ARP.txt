@@ -1,0 +1,5 @@
+ARP utiliza un proceso de tres pasos para determinar y almacenar la dirección MAC de un host que se encuentre en la red local cuando se conoce solo la dirección IPv4 del host:
+
+El host emisor crea una trama dirigida a una dirección MAC de difusión y la envía. En la trama hay un mensaje con la dirección IPv4 del host de destino que se desea encontrar.
+Cada host de la red recibe la trama de difusión y compara la dirección IPv4 del mensaje con su dirección IPv4 configurada. El host con la dirección IPv4 coincidente envía su dirección MAC como respuesta al host emisor original.
+El host emisor recibe el mensaje y almacena la información de la dirección MAC y la dirección IPv4 en una tabla, denominada tabla ARP.

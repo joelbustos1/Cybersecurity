@@ -1,0 +1,1 @@
+El Protocolo de resolución de direcciones (ARP) se utiliza para determinar la dirección MAC del dispositivo de una dirección IPv4 de un dispositivo de destino conocido. Detección de vecinos (ND) se utiliza para determinar la dirección MAC de una dirección IPv6 de dispositivo de destino conocida.

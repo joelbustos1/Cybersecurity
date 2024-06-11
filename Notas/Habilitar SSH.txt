@@ -1,0 +1,46 @@
+Paso 1. Verificar la compatibilidad con SSH.
+
+Use el comando show ip ssh para verificar que el conmutador admita SSH. Si el conmutador no ejecuta un IOS que admita características criptográficas, este comando no se reconoce.
+
+Paso 2. Configurar el dominio IP.
+
+Configure el nombre de dominio IP de la red mediante el comando de modo de configuración global ip domain-name nombre-de-dominio. En la siguiente configuración de ejemplo, el valor del nombre de dominio es cisco.com.
+
+Paso 3. Generar pares de claves RSA.
+
+No todas las versiones del IOS utilizan la versión 2 de SSH de manera predeterminada, y la versión 1 de SSH tiene fallas de seguridad conocidas. Para configurar la versión 2 de SSH, emita el comando ip ssh version 2 en el modo de configuración global. La creación de un par de claves RSA habilita SSH automáticamente. Utilice el comando de modo de configuración global crypto key generate rsa para habilitar el servidor SSH en el conmutador y generar un par de claves RSA. Al crear claves RSA, se solicita al administrador que introduzca una longitud de módulo. La configuración de ejemplo en la figura 1 utiliza un tamaño de módulo de 1024 bits. Una longitud de módulo mayor es más segura, pero se tarda más en generarla y utilizarla.
+
+Nota: para eliminar el par de claves RSA, use el comando crypto key zeroize rsa en el modo de configuración global. Después de eliminarse el par de claves RSA, el servidor SSH se deshabilita automáticamente.
+
+Paso 4. Configurar la autenticación de usuario.
+
+El servidor SSH puede autenticar a los usuarios localmente o usar un servidor de autenticación. Para usar el método de autenticación local, cree un par de nombre de usuario y contraseña con el comando username nombre-de-usuario secret contraseña en modo de configuración global. En el ejemplo, al usuario admin se le asignó la contraseña ccna.
+
+Paso 5. Configurar las líneas vty.
+
+Habilite el protocolo SSH en las líneas vty mediante el comando transport input ssh del modo de configuración de línea. El conmutador Catalyst 2960 tiene líneas vty que van de 0 a 15. Esta configuración evita las conexiones que no son SSH (como Telnet) y limita al conmutador a que acepte solo las conexiones SSH. Use el comando line vty del modo de configuración global y, luego, el comando login local del modo de configuración de línea para requerir la autenticación local de las conexiones SSH mediante la base de datos de nombres de usuarios locales.
+
+Paso 6. Habilitar la versión 2 de SSH.
+
+De manera predeterminada, SSH admite las versiones 1 y 2. Si se admiten ambas versiones, en el resultado de show ip ssh se muestra que está habilitada la versión 1.99. La versión 1 tiene vulnerabilidades conocidas. Por esta razón, se recomienda habilitar únicamente la versión 2. Habilite la versión de SSH mediante el comando de configuración global ip ssh version 2.
+----------------------------------------------------------
+Ejemplo:
+S1# show ip ssh
+SSH Disabled - version 1.99
+%Please create RSA keys (of at least 768 bits size) to enable SSH v2.
+Authentication timeout: 120 secs; Authentication retries: 3
+S1# configure terminal
+S1(config)# ip domain-name cisco.com
+S1(config)# crypto key generate rsa
+The name for the keys will be: S1.cisco.com
+...
+How many bits in the modulus [512]: 1024
+...
+S1(config)# username admin secret ccna
+S1(config-line)# line vty 0 15
+S1(config-line)# transport input ssh
+S1(config-line)# login local
+S1(config-line)# exit
+S1(config)# ip ssh version 2
+S1(config)# exit
+S1#

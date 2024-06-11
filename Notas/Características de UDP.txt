@@ -1,0 +1,4 @@
+-Los datos se reconstruyen en el orden en que se recibieron.
+-Los segmentos perdidos no se vuelven a enviar.
+-No hay establecimiento de sesión.
+-El envío no está informado sobre la disponibilidad de recursos.

@@ -1,0 +1,10 @@
+Los campos en el encabezado del paquete IPv6 incluyen lo siguiente:
+
+-Versión - Este campo contiene un valor binario de 4 bits establecido en 0110 que identifica esto como un paquete IP versión 6.
+-Clase de Tráfico - Este campo de 8 bits es el equivalente al campo Servicios Diferenciados (DS) de IPv4.
+-Etiqueta de Flujo - Este campo de 20 bits sugiere que todos los routers manipulen del mismo modo los paquetes con la misma etiqueta de flujo.
+-Longitud de Carga Útil - Este campo de 16 bits indica la longitud de la parte de los datos o la carga útil del paquete IPv6. Esto no incluye la longitud del encabezado IPv6, que es un encabezado fijo de 40 bytes.
+-Siguiente Encabezado - Este campo de 8 bits equivale al campo Protocolo IPv4. Es un valor que indica el tipo de contenido de datos que lleva el paquete, lo que permite que la capa de red transmita la información al protocolo de capa superior apropiado.
+-Límite de Saltos - Este campo de 8 bits reemplaza al campo TTL de IPv4. Cada router que reenvía el paquete reduce este valor en 1. Cuando el contador llega a 0, el paquete se descarta y se reenvía un mensaje ICMPv6 Tiempo excedido al host emisor. Esto indica que el paquete no llegó a su destino porque se excedió el límite de saltos. A diferencia de IPv4, IPv6 no incluye una suma de comprobación de encabezado IPv6, ya que esta función se realiza tanto en las capas inferior como superior. Esto significa que la suma de comprobación no necesita ser recalculada por cada router cuando disminuye el campo Límite de saltos, lo que también mejora el rendimiento de la red.
+-Dirección IPv6 de Origen - Este campo de 128 bits identifica la dirección IPv6 del host emisor.
+-Dirección IPv6 de Destino - Este campo de 128 bits identifica la dirección IPv6 del host receptor.

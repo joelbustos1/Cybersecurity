@@ -1,0 +1,3 @@
+Cable categoria 5e: La categoría 5e es el cableado más común utilizado en una LAN. El cable consta de cuatro pares de hilos trenzados para reducir la interferencia eléctrica.
+Cable coaxial: El cable coaxial tiene un alambre interno rodeado por una capa aislante tubular, que luego está rodeada por un blindaje conductor tubular. La mayoría de los cables coaxiales también tienen un revestimiento aislante externo.
+Cable de fibra optica: Los cables de fibra óptica puede ser de vidrio o de plástico con un diámetro similar al de un cabello humano y puede transmitir información digital a velocidades muy rápidas a través de grandes distancias. Los cables de fibra óptica tienen un ancho de banda muy alto, lo que les permite transportar grandes cantidades de datos.
