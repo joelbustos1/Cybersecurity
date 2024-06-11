@@ -1,0 +1,46 @@
+Las organizaciones suelen enfrentarse a una abrumadora cantidad de riesgos. Desarrollar un plan de seguridad desde el principio que los aborde puede resultar desafiante. Es por eso que los marcos de seguridad son una opción útil.
+
+En una lectura anterior, aprendiste sobre el Marco de Ciberseguridad (CSF) del Instituto Nacional de Estándares y Tecnología (NIST). Una de sus principales ventajas es su flexibilidad, ya que puede ser aplicado a cualquier industria. En esta lectura, explorarás cómo implementar el CSF del NIST.
+
+Les cinq fonctions du CSF du NIST : identifier, protéger, détecter, répondre et récupérer.
+Orígenes del Marco de Ciberseguridad (CSF)
+Lanzado originalmente en 2014, el Marco de Ciberseguridad (CSF) fue desarrollado para proteger la infraestructura crítica en los Estados Unidos. El Instituto Nacional de Estándares y Tecnología (NIST) fue seleccionado para crear el CSF debido a que es una fuente imparcial de datos y prácticas científicas. Con el tiempo, el NIST adaptó el CSF para adecuarlo a las necesidades de empresas tanto del sector público como del privado. Su objetivo fue hacer el marco más flexible, facilitando su adopción por parte de pequeñas empresas u otras entidades que podrían carecer de recursos para desarrollar sus propios planes de seguridad.
+
+Implementación del CSF
+Desde su creación, muchas empresas han utilizado el CSF del NIST. Como recordarás, el marco consta de tres elementos principales:
+
+Núcleo
+
+Niveles
+
+Perfiles
+
+Estos tres componentes fueron diseñados para ayudar a cualquier empresa a mejorar sus operaciones de seguridad. Aunque solo hay tres elementos principales, todo el marco consta de un sistema complejo de subcategorías y procesos.
+
+La implementación del CSF puede ser un desafío debido a su alto nivel de detalle. También puede resultar complicado determinar dónde encaja el marco. Por ejemplo, algunas empresas ya tienen planes de seguridad establecidos, lo que dificulta comprender cómo el CSF puede beneficiarlas. Por otro lado, algunas empresas pueden estar en las etapas iniciales de elaborar sus planes y necesitar un punto de partida.
+
+En cualquier escenario, la Agencia de Ciberseguridad y Seguridad de las Infraestructuras de los Estados Unidos (CISA) proporciona una guía detallada que cualquier organización puede utilizar para implementar el CSF. A continuación, se presenta una breve descripción y resumen de sus recomendaciones:
+
+Crea un perfil actual de las operaciones de seguridad y describe las necesidades específicas de tu empresa.
+
+Realiza una evaluación de riesgos para identificar cuáles de tus operaciones actuales cumplen con los estándares comerciales y regulatorios.
+
+Analiza y prioriza las vulnerabilidades existentes en las operaciones de seguridad que ponen en riesgo los activos de la empresa.
+
+Implementa un plan de acción para alcanzar las metas y objetivos de tu organización.
+
+Consejo profesional: Ten siempre en cuenta las tendencias actuales en materia de riesgos, amenazas y vulnerabilidades al usar el CSF del NIST. 
+
+Puedes obtener más información sobre la implementación del CSF en 
+este informe de CISA, que describe cómo se aplicó el marco en el sector de las instalaciones comerciales
+.
+
+Industrias que adoptan el CSF
+Desde su introducción en 2014, el CSF del NIST ha seguido evolucionando. Su diseño está influenciado por los estándares y las prácticas recomendadas de algunas de las empresas más grandes del mundo.
+
+Una ventaja del marco es que se alinea con las prácticas de seguridad de muchas organizaciones en la economía global. También, facilita el cumplimiento de regulaciones que podrían ser compartidas con socios/as comerciales.
+
+Conclusiones clave
+El CSF del NIST está diseñado como una guía flexible para que las organizaciones evalúen y mejoren sus prácticas de seguridad. Es un marco útil que combina las prácticas recomendadas de industrias de todo el mundo. Implementar el CSF puede ser un desafío para cualquier organización. El CSF puede ayudar a las empresas a cumplir con los requisitos de cumplimiento normativo para evitar riesgos financieros y de reputación.
+
+
