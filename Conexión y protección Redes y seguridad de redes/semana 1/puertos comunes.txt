@@ -1,0 +1,1 @@
+Algunos números de puerto comunes son: puerto 25, para correo electrónico; puerto 443, para la comunicación segura en Internet; y puerto 20, para transferir archivos grandes.

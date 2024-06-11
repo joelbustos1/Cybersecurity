@@ -1,0 +1,36 @@
+Cortafuegos (firewall)
+Hasta el momento en el curso, aprendiste sobre cortafuegos (firewalls) sin estado, con estado, de próxima generación (NGFW), y conociste las ventajas de seguridad de cada uno de ellos.
+
+La mayoría de los firewalls son similares en sus funciones básicas. Todos permiten el tráfico o lo bloquean en función de un conjunto de reglas. A medida que los paquetes de datos entran en una red, se inspecciona el encabezado del paquete para permitir o denegar su acceso en función de su número de puerto. Los NGFW también pueden inspeccionar cargas útiles de paquetes. Cada sistema debe tener su propio firewall, independientemente del de la red.
+
+Un firewall rodeado de guiones, que protege la red interna del tráfico de Internet que entra a través del módem.
+Sistema de detección de intrusiones
+Un sistema de detección de intrusiones (IDS) es una aplicación que monitorea la actividad del sistema y alerta sobre posibles intrusiones. Un IDS alerta a los/las administradores/as en función de la firma del tráfico malicioso.
+
+El IDS está configurado para detectar ataques conocidos. Los sistemas IDS suelen detectar paquetes de datos a medida que se mueven por la red, y los analizan en busca de las características de ataques conocidos. Algunos sistemas IDS revisan no solo las firmas de ataques conocidos, sino también las anomalías que podrían ser el signo de actividad maliciosa. Cuando el IDS descubre una anomalía, envía una alerta al/ a la administrador/a de la red que luego investigará más a fondo.
+
+La limitación de los sistemas IDS reside en que solo pueden escanear en busca de ataques conocidos o anomalías obvias. Es posible que no se detecten ataques nuevos y sofisticados. La otra limitación es que el IDS en realidad no detiene el tráfico entrante si detecta algo mal. Depende del/de la administrador/a de la red detectar la actividad maliciosa antes de que haga algo perjudicial. 
+
+Un IDS rodeado sobre la imagen de un conmutador, que se encuentra entre un firewall y la red.
+Cuando se combina con un firewall, un IDS agrega otra capa de defensa. El IDS se coloca detrás del firewall y antes de ingresar a la LAN, lo que permite que el IDS analice los flujos de datos después de que el tráfico de red desautorizado por el firewall se haya filtrado. Esto se hace para reducir el ruido en las alertas IDS, también conocidas como falsos positivos.
+
+Sistema de prevención de intrusiones
+Un sistema de prevención de intrusiones (IPS) es una aplicación que monitorea la actividad del sistema en busca de actividad intrusiva y toma medidas para detenerla. Ofrece aún más protección que un IDS porque detiene activamente las anomalías cuando se detectan, a diferencia del IDS que simplemente las informa a un/a administrador/a de red.
+
+Un IPS busca firmas de ataques conocidos y anomalías de datos a las/los analistas de seguridad y bloquea un remitente específico o deja caer paquetes de red que parecen sospechosos. 
+
+Un IPS está situado entre un firewall y la red interna.
+El IPS (como un IDS) se encuentra detrás del firewall en la arquitectura de red. Esto ofrece un alto nivel de seguridad porque los flujos de datos peligrosos se interrumpen incluso antes de que lleguen a partes sensibles de la red. Sin embargo, una limitación potencial es que se trata de un dispositivo inline (interpuesto en el flujo de datos), lo cual significa que el flujo de datos pasa a través de sus interfaces de red: si falla, la conexión entre la red privada e Internet deja de funcionar. Otra limitación del IPS es que se generen falsos positivos, que pueden llevar a la caída de tráfico legítimo.
+
+Dispositivos de captura de paquetes completos
+Los dispositivos de captura de paquetes completos pueden ser muy útiles para administradores de red y profesionales de seguridad. Estos dispositivos permiten registrar y analizar todos los datos que se transmiten a través de la red. También ayudan a investigar las alertas creadas por un IDS.
+
+Gestión de eventos e información de seguridad
+Un sistema de gestión de eventos e información de seguridad (SIEM) es una herramienta que recopila y analiza datos de registro para monitorear actividades críticas en una organización. Las herramientas SIEM funcionan en tiempo real para informar las actividades sospechosas, a través de un panel de control centralizado. Las herramientas SIEM también analizan los datos de registro de red procedentes de IDS, IPS, cortafuegos, VPN, proxies y registros de DNS. Las herramientas SIEM son una forma de agregar datos de eventos de seguridad a fin de que todo aparezca en un solo lugar para que las/los analistas de seguridad lo analicen. Esto se conoce como panel único.
+
+A continuación, puedes analizar un ejemplo de un panel de la herramienta SIEM de Google Cloud, Chronicle. Chronicle es una herramienta nativa de la nube diseñada para conservar, analizar y buscar datos.
+
+Imagen del panel de Chronicle
+Splunk es otra herramienta SIEM común que ofrece diferentes opciones de herramientas SIEM: Splunk Enterprise y Splunk Cloud. Ambas opciones incluyen paneles detallados que ayudan a los profesionales de seguridad a revisar y analizar los datos de una organización. También hay otras herramientas SIEM similares disponibles, y es importante que las y los profesionales de seguridad las investiguen para determinar cuál es la más beneficiosa para la organización.
+
+Una herramienta SIEM no reemplaza la experiencia de los analistas de seguridad ni las actividades de reforzamiento de redes y sistemas cubiertas en este curso, sino que se utilizan en combinación con otros métodos de seguridad. Las/los analistas de seguridad suelen trabajar en un Centro de Operaciones de Seguridad (SOC) donde pueden monitorear la actividad en toda la red. Luego utilizan su experiencia y conocimientos para determinar cómo responder a la información en el panel y decidir cuándo los eventos cumplen con los criterios para ser notificados a supervisión.

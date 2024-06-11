@@ -1,0 +1,8 @@
+El rastreo de paquetes es la práctica de usar herramientas de software para observar datos mientras se mueve por una red. Como analista de seguridad, puedes usarlo para analizar y capturar paquetes al investigar incidentes en curso o depurar problemas de red.
+En un ataque de rastreo pasivo, los paquetes de datos se leen cuando están en tránsito Como todo el tráfico de una red es visible para cualquier host en el hub, los atacantes pueden ver los datos entrantes y salientes del dispositivo víctima.
+En un ataque de rastreo activo los paquetes de datos se manipulan cuando están en tránsito. Esto puede consistir en inyectar protocolos de Internet para redirigir los paquetes a otro puerto o cambiar la información que el paquete contiene.
+Formas de protegerse:
+-Una forma de protegerse contra el rastreo malicioso es usar una VPN que cifra y protege los datos al viajar por la red. Al usar una VPN, los hackers pueden interferir con tu tráfico, pero no decodificarlo para leerlo y ver tu información privada.
+-Otra capa de protección contra estos ataques es que tus sitios incluyan HTTPS al principio de la dirección del dominio. Antes vimos cómo HTTPS usa SSL/TLS para cifrar los datos y evitar espionaje en las transmisiones de red.
+-Una última protección contra el rastreo malicioso de paquetes es evitar conexiones Wi-Fi sin protección. Suele haber Wi-Fi sin protección en lugares públicos como cafeterías, restaurantes o aeropuertos. Estas redes no usan cifrado. Así que cualquiera en la red puede acceder a todos los datos que viajan desde y hacia tu dispositivo. Una precaución que puedes tomar es evitar redes Wi-Fi públicas gratis, salvo que cuentes con una VPN en tu dispositivo. 
+

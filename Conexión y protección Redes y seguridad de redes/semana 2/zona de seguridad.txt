@@ -1,0 +1,6 @@
+Zona de seguridad: Es un segmento de una red que protege la red interna de Internet. Forma parte de una técnica de seguridad llamada segmentación de red, que divide la red en segmentos. Cada uno tiene sus propios permisos de acceso y reglas de seguridad. La zona de seguridad controla quién accede a los segmentos de red. Actúa como una barrera para las redes internas, protege la privacidad en los grupos corporativos y evita que los problemas se extiendan a toda la red.
+Primero, está la zona no controlada, una red sin control de la empresa, como Internet.
+Luego, la zona controlada, una subred que protege la red interna de la zona no controlada.
+Hay varios tipos de redes en la zona controlada. En la capa externa está la zona desmilitarizada, o DMZ, que contiene servicios públicos que acceden a Internet. Incluye servidores web, servidores proxy que alojan sitios públicos y servidores DNS que dan direcciones IP a usuarios de Internet.
+DMZ actúa como un perímetro de red para la red interna. La red interna tiene servidores privados y datos que la empresa necesita proteger.
+En la red interna, hay otra zona llamada zona restringida. Esta protege la información confidencial que solo pueden ver empleados autorizados.
