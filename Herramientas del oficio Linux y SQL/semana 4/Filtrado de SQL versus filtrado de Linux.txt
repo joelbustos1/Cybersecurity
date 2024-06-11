@@ -1,0 +1,35 @@
+Anteriormente, estudiaste los comandos de Linux que te permiten filtrar por información específica, contenida en archivos o directorios. También, analizaste cómo SQL te ayuda a filtrar con eficacia para obtener la información que necesitas. En esta lectura, conocerás las diferencias entre las dos herramientas, en lo que respecta al filtrado. Además, aprenderás cómo acceder a SQL a través de la línea de comandos de Linux.
+
+Acceso a SQL
+
+Existen numerosas interfaces para acceder a SQL. Una de ellas es a través de la línea de comandos de Linux. 
+
+Dado que existen muchas versiones de SQL, para acceder desde Linux, debes escribir un comando para la versión de SQL que quieres usar. Por ejemplo, si deseas acceder a SQLite, puedes ingresar el comando sqlite3 en la línea de comandos.
+
+Luego de realizar esto, cualquier comando escrito en la línea de comandos se dirigirá a SQL en lugar de a los comandos de Linux.
+
+Diferencias entre el filtrado de Linux y el de SQL 
+
+Aunque tanto Linux como SQL te permiten filtrar datos, existen algunas diferencias que es necesario tener en cuenta, a la hora de elegir qué opción utilizar.
+
+Estructura
+
+SQL ofrece mucha más estructura que Linux, que tiene un estilo más libre y menos ordenado.
+
+Por ejemplo, si quieres acceder a un registro de intentos de inicio de sesión de los/las empleados/as, Linux imprimirá los datos como una línea de texto sin esta organización. En cambio, SQL te entregará cada registro separado en columnas, por lo cual te facilitará el análisis de una columna específica.
+
+En términos de estructura, SQL proporciona resultados más fáciles de leer y pueden ajustarse más rápidamente que mediante Linux.
+
+Combinación de tablas
+
+Algunas decisiones sobre seguridad requieren información de distintas tablas, una posibilidad que solo SQL ofrece. Mientras que con SQL, las/los analistas pueden combinar varias tablas cuando devuelve datos, Linux no tiene esa misma funcionalidad, ya que no permite que los datos se asocien con otra información que tengas en tu computadora. Para un/a analista que tiene que revisar registros de seguridad, esto resulta restrictivo.
+
+Mejores usos
+
+Como analista de ciberseguridad, es importante que entiendas cuándo puedes usar cada herramienta. Si bien SQL posee una estructura más organizada y te permite combinar tablas, esto no significa que no haya situaciones que te exijan filtrar datos en Linux.
+
+Una gran cantidad de datos utilizados en ciberseguridad se almacenarán en un formato de base de datos que funciona con SQL. Sin embargo, otros registros pueden estar en un formato que no es compatible con este lenguaje. Por ejemplo, si los datos se almacenan en un archivo de texto, no puedes buscarlos con SQL. En esos casos, es útil saber cómo filtrar en Linux. 
+
+Conclusiones clave
+
+Para trabajar con SQL, puedes acceder a la herramienta desde distintas interfaces, como la línea de comandos de Linux. Tanto SQL como Linux te permiten filtrar por datos específicos, pero SQL tiene las ventajas de estructurar los datos y posibilitar la combinación de datos de diferentes tablas.

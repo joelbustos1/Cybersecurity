@@ -1,0 +1,43 @@
+Has aprendido mucho acerca de SQL, incluso cómo aplicar filtros a consultas SQL y combinar varias tablas en una consulta. En esta lectura, explorarás un ejemplo de algo nuevo que puedes agregar a tu caja de herramientas de SQL: las funciones de agregado. Luego, te centrarás en cómo seguir aprendiendo sobre este y otros temas de SQL por tu cuenta.
+
+Funciones de agregado
+En SQL, las funciones de agregado son funciones que realizan un cálculo en varios puntos de datos y devuelven el resultado de este. No devuelven los datos en sí. 
+
+Existen diversas funciones de agregado que realizan distintos cálculos:
+
+COUNT devuelve un solo número que representa la cantidad de filas devueltas por tu consulta.
+
+AVG devuelve un solo número que representa el promedio de los datos numéricos en una columna.
+
+SUM devuelve un solo número que representa la suma de los datos numéricos en una columna. 
+
+Sintaxis de las funciones de agregado
+
+Para usar una función de agregado, coloca la palabra clave para está después de la palabra clave SELECT y luego, entre paréntesis, indica la columna en la que deseas realizar el cálculo.
+
+Por ejemplo, cuando trabajas con la tabla customers (clientes), puedes usar las funciones de agregado para resumir información importante acerca de la tabla. Si quieres averiguar cuántos/as clientes hay en total, puedes usar la función COUNT en cualquier columna y SQL devolverá el número total de registros, excepto los valores NULL (nulos). Puedes ejecutar esta consulta y analizar sus resultados:  
+SELECT COUNT(firstname)
+FROM customers;
+El resultado es una tabla con una columna titulada COUNT(firstname) y una fila que indica el recuento.
+
+Si quieres obtener el número de clientes de un país específico, puedes agregar un filtro a tu consulta:
+SELECT COUNT(firstname)
+FROM customers
+WHERE country = 'USA';
+Con este filtro, el recuento es menor porque solo incluye los registros en que la columna country (país) contiene un valor de 'USA'(EE.UU.).
+
+En SQL, existen muchas otras funciones de agregado. La sintaxis de colocarlas después de SELECT es exactamente igual que en la función COUNT.
+
+Sigue aprendiendo sobre SQL
+SQL es un lenguaje de consulta ampliamente utilizado, con muchas más palabras clave y aplicaciones. Puedes seguir aprendiendo más sobre funciones de agregado y otros aspectos del uso de SQL por tu cuenta.
+
+Lo más importante es que asumas las tareas nuevas con curiosidad y disposición a identificar nuevas maneras de aplicar SQL en tu trabajo como analista de seguridad. Identifica los resultados de datos que necesitas e intenta usar SQL para obtenerlos.
+
+SQL es una de las herramientas más importantes para trabajar con bases de datos y analizar información, por lo que encontrarás numerosos recursos de apoyo al intentar aprender más sobre él en línea. En primer lugar, procura buscar los conceptos que ya aprendiste y practicaste, para identificar recursos que te ofrezcan explicaciones precisas y fáciles de seguir. Una vez que identifiques estos recursos, puedes usarlos para ampliar tus conocimientos.
+
+También es importante que sigas adquiriendo experiencia práctica con SQL. Además, puedes buscar bases de datos nuevas para ejecutar consultas SQL usando lo que aprendiste.
+
+Conclusiones clave
+Las funciones de agregado como COUNT, SUM y AVG te permiten trabajar de maneras nuevas con SQL. Existen muchos otros aspectos adicionales de SQL que pueden resultarte útiles en tu labor como analista. Si sigues investigando SQL por tu cuenta, podrás identificar más maneras de aplicarlo en un contexto de ciberseguridad.
+
+

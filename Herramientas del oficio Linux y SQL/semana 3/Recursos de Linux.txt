@@ -1,0 +1,32 @@
+Anteriormente, has conocido a la comunidad Linux y algunos recursos que existen para ayudar a los/las usuarios/as. Linux les ofrece muchas opciones para encontrar la información que necesitan y, en esta lectura, revisarás algunas de ellas. Cuando conozcas los recursos que tienes a tu disposición, podrás continuar aprendiendo Linux de forma independiente. También podrás descubrir aún más formas en las que Linux puede ayudarte en tu trabajo como analista de seguridad.
+
+Comunidad de Linux
+Linux tiene una gran comunidad en línea, lo cual es un excelente recurso para usuarios/as de todos los niveles. Es probable que encuentres las respuestas a tus preguntas mediante una simple búsqueda en línea. La resolución de problemas a través de la búsqueda y la lectura en línea es una forma efectiva de descubrir cómo otras personas abordaron un problema similar al tuyo. También es una excelente forma de que las/los principiantes aprendan más sobre Linux.
+
+UNIX and Linux Stack Exchange
+ es un recurso confiable para solucionar problemas de Linux. Se trata de un sitio web de preguntas y respuestas en el que las/los miembros de la comunidad pueden formular y responder dudas sobre Linux. Además, tienen la posibilidad de votar las respuestas, por lo cual las mejores aparecen arriba. Muchas de las preguntas están relacionadas con temas específicos de usuarios/as avanzados/as, y pueden ayudarte a solucionar problemas a medida que continúas usando Linux.
+
+Soporte integrado de Linux
+Linux también tiene varios comandos que puedes usar como soporte.
+
+man
+
+El comando man muestra información sobre otros comandos y cómo funcionan. Es la abreviatura de “manual”. Para buscar información sobre un comando, ingresa el comando después de man. Por ejemplo, al ingresar man chown, obtienes información detallada sobre el comando chown, incluidas las diversas opciones que puedes usar con él. La salida del comando man también se llama “páginas man”.
+
+apropos
+
+El comando apropos busca una cadena especificada en las descripciones de páginas man. Las páginas man pueden ser largas y difíciles de explorar si estás buscando una palabra clave específica. Para usar apropos, ingresa la palabra clave después de apropos. 
+
+También puedes incluir la opción -a para buscar varias palabras. Por ejemplo, al ingresar apropos -a graph editor, obtienes páginas man que contienen las palabras “graph” y “editor” en sus descripciones.
+
+whatis
+
+El comando whatis muestra una descripción de un comando en una sola línea. Por ejemplo, al ingresar whatis nano, se obtiene una descripción de nano. Este comando es útil cuando no necesitas una descripción detallada, sino solo una idea general del comando. Puede servir como recordatorio, o bien una manera de obtener más información sobre un comando nuevo que conociste a través de un/a colega o un recurso en línea. 
+
+Conclusiones clave
+Hay muchos recursos disponibles para solucionar problemas u obtener soporte para Linux. Linux tiene una gran comunidad global de usuarios/as que formulan y responden preguntas sobre recursos en línea, como Unix and Linux Stack Exchange. También puedes usar comandos de soporte integrados en Linux, como man, apropos y whatis.
+
+Recursos para obtener información adicional
+Hay muchos recursos disponibles en línea que pueden ayudarte a aprender nuevos conceptos de Linux, repasar temas o formular y responder preguntas con la comunidad global de Linux. 
+Unix and Linux Stack Exchange
+ es solo un ejemplo, y puedes buscar otros en línea.

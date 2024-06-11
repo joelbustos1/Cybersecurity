@@ -1,0 +1,8 @@
+Veamos la entrada estándar, salida estándar y mensajes de error. 
+La entrada estándar es información que recibe el SO por la línea de comandos.La información se ingresa al shell mediante el teclado. Si el shell interpreta tu solicitud, le pide al kernel los recursos para ejecutar la tarea.
+Veamos el comando echo, que emite una cadena de texto especificada. Los datos de cadena son una secuencia ordenada de caracteres.
+ejemplo: echo hello
+La salida estándar es la información que devuelve el SO por el shell.
+Finalmente el error estándar tiene mensajes de error que devuelve el SO por el shell. Esto puede ocurrir al escribir mal un comando o si el sistema no conoce la respuesta al comando. También puede ocurrir porque no tenemos los permisos para ejecutar un comando.
+
+"expr" hacer cuentas matematicas

@@ -1,0 +1,63 @@
+Anteriormente, te centraste en cómo refinar tus consultas SQL con la cláusula WHERE para filtrar los resultados. En esta lectura, analizarás en mayor profundidad el uso de la cláusula WHERE, el operador LIKE y el comodín del signo de porcentaje (%). Además, te presentaremos el guion bajo (_), otro comodín que puede ayudarte a filtrar consultas.
+
+Cómo ayuda el filtrado
+Como analista de seguridad, a menudo deberás trabajar con registros muy voluminosos y complicados. Para encontrar la información que necesitas, con frecuencia deberás usar SQL para filtrar los registros.
+
+En el contexto de la ciberseguridad, puedes usar filtros para identificar intentos de inicio de sesión de un usuario específico o todos los intentos de inicio de sesión realizados en el momento en que se produjo un incidente de seguridad. Como ejemplo adicional, puedes filtrar para encontrar dispositivos que están ejecutando una versión específica de una aplicación.
+
+WHERE (dónde)
+Para crear un filtro en SQL, debes usar la palabra clave WHERE. WHERE indica la condición para un filtro.
+
+Si necesitaras enviar un correo electrónico a empleados/as con el cargo de ‘IT Staff' (personal de TI), podrías usar una consulta como la del ejemplo que se presenta a continuación. Puedes ejecutar este ejemplo para examinar cuáles son los resultados: 
+
+SELECT firstname, lastname, title, email
+FROM employees
+WHERE title = 'IT Staff';
+
+En lugar de devolver todos los registros en la tabla employees (empleados/as), la cláusula WHERE indica a SQL que devuelva solo aquellos que contienen 'IT Staff' (empleados/as de TI) en la columna title (cargo). Esta usa el operador de signo igual (=) para establecer esta condición.
+
+Nota: Debes colocar el punto y coma (;) donde termina la consulta. Cuando agregas un filtro a una consulta básica, el punto y coma se coloca después del filtro. 
+
+Filtrado por patrones
+También puedes filtrar en función de un patrón. Por ejemplo, puedes identificar las entradas que comienzan o terminan con uno o varios caracteres determinados. Filtrar en función de un patrón te exige incorporar dos elementos más en tu cláusula WHERE:
+
+un comodín 
+
+el operador LIKE
+
+Comodines
+
+Un comodín es un carácter especial que se puede sustituir por cualquier otro carácter. Dos de los comodines más útiles son el signo de porcentaje (%) y el guion bajo (_):
+
+El signo de porcentaje puede sustituir cualquiera de los demás caracteres. 
+
+El símbolo de guion bajo solo puede sustituir uno de los demás caracteres.
+
+Puedes colocar estos comodines después de una cadena, antes de una cadena o en ambas ubicaciones, dependiendo del patrón según el cual estás filtrando.
+
+La tabla siguiente incluye estos comodines aplicados a la cadena 'a' y ejemplos de los resultados que devolverá cada patrón.
+
+LIKE (como)
+
+Para aplicar comodines al filtro, debes usar el operador LIKE en lugar de un signo igual (=). LIKE se usa con WHERE para buscar un patrón en una columna. 
+
+Por ejemplo, si quieres enviar un correo electrónico a empleados/as con el cargo 'IT Staff' (personal de TI) o 'IT Manager' (gerente de TI), puedes usar el operador LIKE combinado con el comodín %:   
+
+SELECT lastname, firstname, title, email
+FROM employees
+WHERE title LIKE 'IT%';
+
+Esta consulta devuelve todos los registros con valores en la columna title (cargo) que comienzan con el patrón de 'IT'. Esto significa que se devuelve tanto 'IT Staff' (personal de TI) como 'IT Manager' (gerente de TI).
+
+Como ejemplo adicional, si quieres buscar en la tabla de facturas a todos/as los/las clientes ubicados en estados con la abreviatura 'NY', 'NV', 'NS' o 'NT', puedes usar el patrón 'N_' en la columna state (estado):  
+
+SELECT firstname,lastname, state, country
+FROM customers
+WHERE state LIKE 'N_';  
+
+Esto devuelve todos los registros con abreviaturas de estado que siguen este patrón.
+
+Conclusiones clave
+Los filtros son importantes para refinar los resultados de tus consultas. WHERE es una palabra clave esencial para agregar un filtro a tu consulta. También puedes filtrar por patrones al combinar el operador LIKE con los comodines de signo de porcentaje (%) y de guion bajo (_).
+
+

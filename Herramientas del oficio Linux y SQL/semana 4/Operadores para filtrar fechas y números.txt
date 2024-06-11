@@ -1,0 +1,50 @@
+Anteriormente, conociste operadores como menor que (<) o mayor que (>) y analizaste cómo usarlos para filtrar tipos de datos numéricos y de fecha y hora. Esta lectura resume lo que aprendiste y te ofrece ejemplos nuevos del uso de operadores en filtros.
+
+Números, fechas y horas en ciberseguridad
+Las/los analistas de seguridad trabajan con más que datos de cadena o datos que consisten en una secuencia ordenada de caracteres. 
+
+También suelen trabajar con datos numéricos, o que consisten en números. Algunos ejemplos de datos numéricos que puedes encontrar en tu trabajo como analista de seguridad son:
+
+el número de intentos de inicio de sesión
+
+el recuento de un tipo específico de entrada de registro
+
+el volumen de datos que se envían desde una fuente
+
+el volumen de datos que se envían a un destino
+
+También encontrarás datos de fecha y hora, o datos que representan una fecha y una hora. Como primer ejemplo, los registros por lo general colocan una marca de tiempo en cada ítem. Otros datos de fecha y hora pueden incluir:
+
+fechas de inicio de sesión
+
+horas de inicio de sesión
+
+fechas de implementaciones de parches 
+
+la duración de una conexión
+
+Operadores de comparación
+En SQL, el filtrado de datos numéricos y de fecha y hora suele involucrar operadores. Puedes usar los siguientes operadores en tus filtros, para asegurarte de obtener solo las filas que necesitas:
+
+Nota: También puedes usar != como operador alternativo para no igual que.
+
+Incorporación de operadores en filtros
+
+Estos operadores de comparación se usan en la cláusula WHERE al final de una consulta. La consulta siguiente usa el operador > para filtrar la columna birthdate (fecha de nacimiento). Puedes ejecutar esta consulta para analizar sus resultados:  
+SELECT firstname, lastname, birthdate
+FROM employees
+WHERE birthdate > '1970-01-01';
+Esta consulta devuelve el nombre y los apellidos de empleados/as que nacieron después, pero no el '1970-01-01'(o 1º de enero de 1970). Si en lugar de ese operador usaras el operador >=, los resultados también incluirían resultados de la fecha '1970-01-01'.
+
+En otras palabras, el operador > es exclusivo y el operador >= es inclusivo. Un operador exclusivo es el que no incluye el valor de comparación, en cambio un operador inclusivo es el que incluye el valor de comparación.
+
+BETWEEN (entre)
+
+Otro operador que también se usa para datos numéricos y de fecha y hora es el operador BETWEEN. BETWEEN filtra por números o fechas dentro de un rango. Por ejemplo, si quieres encontrar los nombres y apellidos de todos/as los/las empleados/as contratados/as entre el 1º de enero de 2002 y el 1º de enero de 2003, puedes usar el operador BETWEEN de la siguiente manera:  
+SELECT firstname, lastname, hiredate
+FROM employees
+WHERE hiredate BETWEEN '2002-01-01' AND '2003-01-01';
+Nota: El operador BETWEEN es inclusivo. Esto significa que los registros con una hiredate (fecha de contratación) del 1º de enero de 2002 o del 1º de enero de 2003 se incluyen en los resultados de la consulta anterior.
+
+Conclusiones clave
+Los operadores son importantes para filtrar datos numéricos y de fecha y hora. Estos incluyen operadores exclusivos, como < y, operadores inclusivos, como <=. El operador BETWEEN, otro operador inclusivo, te ayuda a obtener los datos que necesitas dentro de un rango.

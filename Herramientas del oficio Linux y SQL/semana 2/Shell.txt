@@ -1,0 +1,5 @@
+El shell ofrece la línea de comandos para que interactúes con el SO.
+Un comando le indica a la computadora que haga algo.
+El shell se comunica con el kernel para ejecutar comandos.
+Te permite hacer cálculos, realizar pruebas y ejecutar apps. Sobre todo, te permite combinar estas operaciones y conectar apps entre sí para realizar tareas complejas y automatizadas. Hay muchas distribuciones de Linux y también muchos tipos de shells.
+En este curso, nos enfocaremos en Bash.

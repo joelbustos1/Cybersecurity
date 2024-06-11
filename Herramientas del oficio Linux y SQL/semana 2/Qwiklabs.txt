@@ -1,0 +1,84 @@
+Cómo usar Qwiklabs
+Botón Start Lab (Iniciar lab)
+
+Al hacer clic en Start Lab (Iniciar lab), se abrirá una terminal temporal en esta pestaña. Estas instrucciones se desplazarán a la parte derecha de la pantalla.  
+
+Bouton vert avec le texte « Start Lab » (Démarrer l'atelier) à gauche d'un minuteur réglé sur 20 minutes.
+Botón verde con el texto “Start Lab” (Iniciar lab) y se muestra un límite máximo de tiempo de 20 minutos.
+
+Lee las instrucciones y completa todas las tareas de este lab, introduciendo comandos en la terminal.
+
+Nota: La terminal puede tardar un momento en arrancar.
+
+Cuadro de diálogo de control de lab
+
+Al iniciar la actividad, se abre el cuadro de diálogo de control del lab. Contiene el botón End Lab (Finalizar lab), el temporizador y el botón Open Linux Console (Abrir consola Linux).
+
+Puedes ocultar o mostrar el cuadro de diálogo haciendo clic en el siguiente ícono en el recuadro rojo:
+
+Quatre rectangles formant une spirale dans un carré, lui-même encadré en rouge dans une capture d'écran de l'atelier.
+Cuatro rectángulos en espiral, uno al lado del otro, para formar un cuadrado rodeado por un recuadro rojo en una captura de pantalla del lab.
+
+El temporizador
+
+El temporizador se inicia cuando la terminal está cargada y controla el tiempo que te queda para completar un lab. El temporizador cuenta regresivamente hasta llegar a 00:00:00. Cuando lo hace, la terminal temporal y los recursos asociados se eliminan.
+
+Tendrás tiempo suficiente para completar los labs. Pero te recomendamos mantener la concentración al completar las tareas y asegurarte de aprovechar el tiempo adecuadamente.
+
+Botón Open Linux Console (Abrir consola Linux)
+
+Al hacer clic en el botón Open Linux Console (Abrir consola Linux), la terminal se abre en una nueva ventana del navegador:
+
+Un bouton avec le texte « Open Linux Console » (Ouvrir la console Linux) encadré en rouge.
+Un cuadrado rojo alrededor de un botón con el texto “Open Linux Console” (Abrir consola Linux).
+
+Utiliza esta función si deseas ver la terminal a pantalla completa. Puedes cerrar esta ventana en cualquier momento. Hacerlo no finaliza tu lab y puedes continuar trabajando en la terminal en la pestaña original.
+
+Verificar el progreso
+
+Puedes verificar tu progreso haciendo clic en Check my progress (Verificar mi progreso) al final de cada tarea.  
+
+Bouton bleu avec le texte « Check my progress » (Vérifier ma progression) en dessous d'un exemple de tâche.
+Botón azul con el texto “Check my progress” (Verificar mi progreso) debajo de una tarea de ejemplo.
+
+Si aún no has completado una tarea, recibirás sugerencias con los pasos a seguir para completarla.
+
+Puedes hacer clic en Check my progress (Verificar mi progreso) siempre que desees comprobar el estado de finalización de una tarea o recibir una sugerencia.
+
+Uso de los comandos copiar/pegar
+
+La primera vez que intentes utilizar los atajos de teclado para copiar o pegar (como CTRL + C), aparecerá una ventana emergente solicitando permiso para acceder al portapapeles de tu dispositivo: “googlecoursera.qwiklabs.com desea ver el texto y las imágenes copiadas en el portapapeles”. Haz clic en Allow (Permitir) si deseas poder utilizar estos atajos en la plataforma Qwiklabs. Si eliges no dar acceso, no podrás utilizar los atajos de teclado, pero igualmente podrás completar el lab.
+
+Bloque de código
+
+Algunos pasos pueden incluir un bloque de código. Haz clic en el botón Copy (Copiar) para copiar el código proporcionado y luego pégalo en la terminal.  
+
+Deux rectangles superposés symbolisant l'action « Copier » dans un encadré rouge, à droite d'un exemple de bloc de code.
+Dos rectángulos superpuestos rodeados por un recuadro rojo en el lado derecho de un bloque de código de muestra para indicar la opción de copiado.
+
+Para pegar código u otro contenido de texto que hayas copiado de las instrucciones, activa la terminal haciendo clic en cualquier lugar dentro de esta. La terminal está activa cuando el cursor cambia de un contorno vacío estático a un bloque sólido que titila.
+
+Une invite avec un signe dollar et un curseur rectangulaire blanc encadrés en rouge dans le terminal.
+Un símbolo de dólar y un cursor rectangular blanco rodeado por un recuadro rojo en la terminal.
+
+Una vez que la terminal esté activa, utiliza el atajo de teclado CTRL + V (mantén pulsada la tecla CTRL y pulsa la tecla V) para insertar el texto copiado en el terminal en el lugar donde el cursor titila.
+
+Desplazamiento
+
+En ciertas situaciones, es posible que desees desplazarte por la ventana de la terminal. Para ello, utiliza la rueda de desplazamiento del mouse o el panel táctil de tu computadora.
+
+Botón End Lab (Finalizar lab)
+
+Un bouton rouge avec le texte « End Lab » (Terminer l'atelier) dans un encadré rouge.
+Un botón rojo con el texto “End Lab” (Finalizar lab) rodeado por un recuadro rojo.
+
+Por último, haz clic en End Lab (Finalizar lab) cuando hayas completado las tareas del lab.
+
+Nota: No hagas clic en End Lab (Finalizar lab) hasta que hayas terminado. Si lo haces, perderás el acceso al trabajo que hayas realizado a lo largo del lab.
+
+Seguimiento del progreso en Coursera
+
+Si completas un lab pero tu progreso no se ha registrado en Coursera, es posible que tengas que actualizar la página para que este se registre. Una vez que completes el lab y actualices la página, aparecerá la marca de verificación verde.
+
+Conclusiones clave
+Saber cómo navegar por Qwiklabs te será útil a medida que completes los labs a lo largo de este curso. Estos pueden ayudarte a practicar lo que has aprendido, en un entorno interactivo.

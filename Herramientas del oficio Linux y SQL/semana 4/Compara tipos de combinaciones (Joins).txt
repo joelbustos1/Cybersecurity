@@ -1,0 +1,95 @@
+Anteriormente, estudiaste las combinaciones en SQL y cómo usarlas para combinar datos de varias tablas cuando estas tienen una columna en común. Además, aprendiste que existen distintos tipos de combinaciones y que cada una de ellas devuelve diferentes filas de las tablas que se combinan. En esta lectura, revisarás estos conceptos y analizarás en mayor profundidad la sintaxis necesaria para cada tipo de combinación.
+
+Combinaciones internas
+El primer tipo de combinación que puedes ejecutar es una combinación interna. INNER JOIN devuelve filas que coinciden en una columna especificada que existe en más de una tabla.  
+Diagrama de Venn con dos círculos etiquetados con "left table" (tabla izquierda) y "right table" (tabla derecha). La intersección está resaltada.
+
+Esta solo devuelve filas donde existe una coincidencia pero, como en otros tipos de combinaciones, devuelve todas las columnas especificadas de todas las tablas combinadas. Por ejemplo, si la consulta combina dos tablas con SELECT *, se devuelven todas las columnas en ambas tablas.
+
+Nota: Si una columna existe en ambas tablas, esta se devuelve dos veces al usar SELECT *.
+
+La sintaxis de una combinación interna
+
+Para escribir una consulta usando INNER JOIN, puedes utilizar la siguiente sintaxis:
+
+SELECT *
+
+FROM employees
+
+INNER JOIN machines ON employees.device_id = machines.device_id;
+
+Debes especificar las dos tablas a combinar incluyendo la tabla primera o izquierda después de FROM y la tabla segunda o derecha después de INNER JOIN.
+
+Después del nombre de la tabla derecha, usa la palabra clave ON y el operador = para indicar la columna en la que estás combinando las tablas. Es importante que especifiques los nombres tanto de la tabla como de la columna en esta parte de la combinación colocando un punto (.) entre la tabla y la columna.  
+
+Además de seleccionar todas las columnas, puedes seleccionar solo ciertas columnas. Por ejemplo, si quieres que la combinación solo devuelva las columnas username (nombre de usuario), operating_system (sistema operativo) y device_id (ID de dispositivo), puedes escribir esta consulta:
+
+SELECT username, operating_system, employees.device_id
+
+FROM  employees
+
+INNER JOIN machines ON employees.device_id = machines.device_id;
+
+Nota: En la consulta de ejemplo, username (nombre de usuario) y operating_system (sistema operativo) solo aparecen en una de las dos tablas, por lo que se escriben solo con el nombre de la columna. Por otra parte, como device_id (ID de dispositivo) aparece en ambas tablas, es necesario indicar cuál devolver, especificando el nombre tanto de la tabla como de la columna (employees.device_id).
+
+Combinaciones externas
+Las combinaciones externas amplían lo que se devuelve a partir de una combinación. Cada tipo de combinación externa devuelve todas las filas de una o de ambas tablas.
+
+Combinaciones izquierdas
+
+Cuando combinas dos tablas, LEFT JOIN  devuelve todos los registros de la primera tabla, pero solo devuelve las filas de la segunda tabla que coinciden en una columna especificada.   
+
+Diagrama de Venn con dos círculos etiquetados con "left table" (tabla izquierda) y "right table" (tabla derecha). El círculo izquierdo en la intersección está resaltado.
+
+La sintaxis para usar LEFT JOIN se demuestra en la consulta siguiente:
+
+SELECT *
+
+FROM employees
+
+LEFT JOIN machines ON employees.device_id = machines.device_id;
+
+Como con todas las combinaciones, debes especificar la tabla primera o izquierda como la tabla que viene después de FROM y la tabla segunda o derecha como la tabla que viene después de LEFT JOIN. En la consulta de ejemplo, como employees (empleados/as) es la tabla izquierda, se devuelven todos sus registros. Solo se devuelven los registros que coinciden en la columna device_id (ID de dispositivo) desde la tabla derecha, machines (equipos). 
+
+Combinaciones derechas
+
+Cuando combinas dos tablas, RIGHT JOIN devuelve todos los registros de la segunda tabla, pero solo devuelve las filas de la primera tabla que coinciden en una columna especificada.  
+Diagrama de Venn con dos círculos etiquetados con "left table" (tabla izquierda) y "right table" (tabla derecha). El círculo derecho y la intersección están resaltados.
+
+La consulta siguiente demuestra la sintaxis para RIGHT JOIN:
+
+SELECT *
+
+FROM employees
+
+RIGHT JOIN machines ON employees.device_id = machines.device_id;
+
+RIGHT JOIN tiene la misma sintaxis que LEFT JOIN, con la única diferencia de que la palabra clave RIGHT JOIN ordena a SQL generar resultados distintos. La consulta devuelve todos los registros de machines (equipos), que es la tabla segunda o derecha. Solo se devuelven registros coincidentes de employees (empleados/as), que es la tabla primera o izquierda.
+
+Nota:  Puedes usar LEFT JOIN y RIGHT JOIN y obtener exactamente los mismos resultados si usas las tablas en orden inverso. La consulta RIGHT JOIN siguiente devuelve exactamente el mismo resultado que la consulta LEFT JOIN demostrada en la sección anterior:
+
+SELECT *
+
+FROM machines
+
+RIGHT JOIN employees ON employees.device_id = machines.device_id;
+
+Para cambiar de lugar las tablas izquierda y derecha, solo tienes que modificar el orden de las tablas que aparecen antes y después de la palabra clave utilizada para la combinación.
+
+Combinaciones externas completas 
+
+FULL OUTER JOIN (Combinación externa completa) devuelve todos los registros de ambas tablas. Puedes utilizarla como una manera de fusionar totalmente dos tablas.  
+Diagrama de Venn con dos círculos etiquetados con "left table" (tabla izquierda) y "right table" (tabla derecha). Ambos círculos están resaltados.
+
+Puedes revisar la sintaxis para usar FULL OUTER JOIN en la consulta siguiente:
+
+SELECT *
+
+FROM employees
+
+FULL OUTER JOIN machines ON employees.device_id = machines.device_id;
+
+Los resultados de una consulta FULL OUTER JOIN incluyen todos los registros de ambas tablas. De manera similar a INNER JOIN, el orden de las tablas no modifica los resultados de la consulta.
+
+Conclusiones clave
+Cuando trabajas en SQL, tienes varias maneras de combinar tablas.  Todas las combinaciones devuelven registros que coinciden en una columna especificada. INNER JOIN devolverá solo estos registros. Las combinaciones externas también devuelven todos los demás registros de una tabla o de ambas. LEFT JOIN devuelve todos los registros de la tabla primera o izquierda, RIGHT JOIN devuelve todos los registros de la tabla segunda o derecha y FULL OUTER JOIN (combinación externa completa) devuelve todos los registros de ambas tablas.   
